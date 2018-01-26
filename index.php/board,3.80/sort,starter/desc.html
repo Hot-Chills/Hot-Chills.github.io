@@ -1,0 +1,886 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="../../../Themes/carbonate202b1/css/index.css%3Ffin20.css" />
+	<link rel="stylesheet" type="text/css" href="http://hotchills.org/Themes/carbonate202b1/css/index_carbon.css?fin20" />
+	<script type="text/javascript" src="../../../Themes/default/scripts/script.js%3Ffin20"></script>
+	<script type="text/javascript" src="../../../Themes/carbonate202b1/scripts/theme.js%3Ffin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://hotchills.org/Themes/carbonate202b1";
+		var smf_default_theme_url = "http://hotchills.org/Themes/default";
+		var smf_images_url = "http://hotchills.org/Themes/carbonate202b1/images";
+		var smf_scripturl = "http://hotchills.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Server" />
+	<title>Server</title>
+	<meta name="robots" content="noindex" />
+	<link rel="canonical" href="../../board,3.80.html" />
+	<link rel="help" href="../../../index.php%3Faction=help.html" />
+	<link rel="search" href="../../../index.php%3Faction=search.html" />
+	<link rel="contents" href="../../../index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Hot Chills - RSS" href="../../../index.php%3Ftype=rss%3Baction=.xml" />
+	<link rel="index" href="../../board,3.0.html" />
+	<link rel="stylesheet" type="text/css" id="portal_css" href="../../../Themes/default/css/portal.css" />
+	<script type="text/javascript" src="../../../Themes/default/scripts/portal.js%3F235"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var sp_images_url = "http://hotchills.org/Themes/carbonate202b1/images/sp";
+		function sp_collapseBlock(id)
+		{
+			mode = document.getElementById("sp_block_" + id).style.display == "" ? 0 : 1;
+			document.cookie = "sp_block_" + id + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_" + id).src = smf_images_url + (mode ? "/collapse.gif" : "/expand.gif");
+			document.getElementById("sp_block_" + id).style.display = mode ? "" : "none";
+		}
+		function sp_collapseSide(id)
+		{
+			var sp_sides = new Array();
+			sp_sides[1] = "sp_left";
+			sp_sides[4] = "sp_right";
+			mode = document.getElementById(sp_sides[id]).style.display == "" ? 0 : 1;
+			document.cookie = sp_sides[id] + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_side" + id).src = sp_images_url + (mode ? "/collapse.png" : "/expand.png");
+			document.getElementById(sp_sides[id]).style.display = mode ? "" : "none";
+		}
+		window.addEventListener("load", sp_image_resize, false);
+	// ]]></script>
+	<style type="text/css">
+		#main_menu,
+		#admin_menu
+		{
+			width: 90%
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="subheader"><div style="width: 90%; margin: auto;">
+	<div id="uppertop">
+		<div class="floatright">January 25, 2018, 20:19:50</div>
+		<script type="text/javascript" src="../../../Themes/default/scripts/sha1.js"></script>
+		<form id="guest_form" action="http://hotchills.org/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'bf87e9bc1a7f4dcadc0eaef651f56d51');">
+			Welcome, <strong>Guest</strong>. Please <a href="../../../index.php%3Faction=login.html">login</a> or <a href="../../../index.php%3Faction=register.html">register</a>.&nbsp;
+			<input type="text" name="user" size="10"  />
+			<input type="password" name="passwrd" size="10"  />
+			<select name="cookielength">
+				<option value="60">1 Hour</option>
+				<option value="1440">1 Day</option>
+				<option value="10080">1 Week</option>
+				<option value="43200">1 Month</option>
+				<option value="-1" selected="selected">Forever</option>
+			</select>
+			<input type="submit" value="Login" />	
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+	</div>
+	<div id="top_section" style="clear: both; padding-top: 1em;">
+			<div class="floatright" id="news"><b>News: </b>
+				
+			</div>		
+		<img id="upshrink" src="../../../Themes/carbonate202b1/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none; clear: right;"  />
+			<h1>
+				<a href="../../../index.php.html"><img src="../../../HotChills.png" alt="Hot Chills" /></a>
+			</h1>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'uppertop',
+					'news'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'a0b5d180155',
+					sSessionId: 'bf87e9bc1a7f4dcadc0eaef651f56d51'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<div class="menuback">
+			<div class="menuback2">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home" class="toplevel">
+					<a class="firstlevel" href="../../../index.php.html">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_forum" class="toplevel">
+					<a class="active firstlevel" href="../../../index.php%3Faction=forum.html">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help" class="toplevel">
+					<a class="firstlevel" href="../../../index.php%3Faction=help.html">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search" class="toplevel">
+					<a class="firstlevel" href="../../../index.php%3Faction=search.html">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_login" class="toplevel">
+					<a class="firstlevel" href="../../../index.php%3Faction=login.html">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register" class="toplevel">
+					<a class="firstlevel" href="../../../index.php%3Faction=register.html">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+		<br class="clear" />
+		</div>
+	</div></div>
+	<div id="mainsection"><div style="width: 90%;margin: auto;">
+		<div id="innermain">	
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="../../../index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="../../../index.php%3Faction=forum.html#c1"><span>General Category</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="../../board,3.0.html"><span>Server</span></a> (Moderator: <a href="../../../index.php%3Faction=profile%3Bu=213.html" title="Board Moderator">Bounty Hunter</a>)
+			</li>
+		</ul>
+	</div>
+	<div class="sp_right sp_fullwidth">
+		<a href="desc.html#side" onclick="return sp_collapseSide(1)"><img src="../../../Themes/carbonate202b1/images/sp/collapse.png" alt="collapse" id="sp_collapse_side1" /></a>
+	</div>
+	<table id="sp_main">
+		<tr>
+			<td id="sp_left" width="200">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('21')"><img id="sp_collapse_21" src="../../../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Server Information
+		</h3>
+	</div>
+	<div id="sp_block_21" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block"><table><tbody><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Name:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">IP:</td><td class="windowbg info" style="padding: 0 0.3em;">83.209.176.183</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Port:</td><td class="windowbg info" style="padding: 0 0.3em;">36963</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Map:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Players:</td><td class="windowbg info" style="padding: 0 0.3em;">0&nbsp;&nbsp;<span title="">[Hover]</span></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Ranks:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="../../page,page482.html">[Link]</a></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Traffic:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="../../page,page837.html">[Link]</a></td></tr></tbody></table>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('2')"><img id="sp_collapse_2" src="../../../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Who&#039;s Online
+		</h3>
+	</div>
+	<div id="sp_block_2" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<ul class="sp_list">
+									<li><img src="../../../Themes/carbonate202b1/images/sp/dot2.png" alt="Dot" title="Dot" /> Guests: 2</li>
+									<li><img src="../../../Themes/carbonate202b1/images/sp/dot3.png" alt="Dot" title="Dot" /> Hidden: 0</li>
+									<li><img src="../../../Themes/carbonate202b1/images/sp/dot4.png" alt="Dot" title="Dot" /> Users: 2</li>
+									<li><img src="../../../Themes/carbonate202b1/images/sp/dot5.png" alt="Dot" title="Dot" /> Users Online:</li>
+								</ul>
+								<div class="sp_online_flow">
+									<ul class="sp_list">
+										<li class="sp_list_indent"><img src="../../../Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="../../../index.php%3Faction=profile%3Bu=1.html" style="color: #FF0000;">Häppy C@mper</a></li>
+										<li class="sp_list_indent"><img src="../../../Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="../../../index.php%3Faction=profile%3Bu=1127.html">Senior Eagles</a></li>
+									</ul>
+								</div>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('11')"><img id="sp_collapse_11" src="../../../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Recent Posts
+		</h3>
+	</div>
+	<div id="sp_block_11" class="sp_block_section_last" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<a href="../../topic,1148.msg11194/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="../../../index.php%3Faction=profile%3Bu=133.html">Nighthawk</a><br />[December 17, 2017, 01:07:55]</span><br /><hr />
+								<a href="../../topic,1148.msg11193/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="../../../index.php%3Faction=profile%3Bu=155.html">Range Rover</a><br />[December 09, 2017, 16:33:17]</span><br /><hr />
+								<a href="../../topic,1149.msg11192/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../../../index.php%3Faction=profile%3Bu=384.html">Maloo</a><br />[November 28, 2017, 22:47:06]</span><br /><hr />
+								<a href="../../topic,1149.msg11191/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../../../index.php%3Faction=profile%3Bu=213.html">Bounty Hunter</a><br />[November 28, 2017, 18:29:07]</span><br /><hr />
+								<a href="../../topic,1149.msg11190/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../../../index.php%3Faction=profile%3Bu=1068.html">siN</a><br />[November 28, 2017, 10:45:22]</span><br />
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+			</td>
+			<td id="sp_center">
+	<a id="top"></a>
+	<div class="pagesection">
+		<div class="pagelinks floatleft">Pages: <a class="navPages" href="../../board,3.0/sort,starter/desc.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php'+'?board=3.%1$d;sort=starter;desc', 20, 40, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="../../board,3.40/sort,starter/desc.html">3</a> <a class="navPages" href="../../board,3.60/sort,starter/desc.html">4</a> [<strong>5</strong>] <a class="navPages" href="../../board,3.100/sort,starter/desc.html">6</a> <a class="navPages" href="../../board,3.120/sort,starter/desc.html">7</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?board=3.%1$d;sort=starter;desc', 140, 220, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="../../board,3.220/sort,starter/desc.html">12</a>  &nbsp;&nbsp;<a href="desc.html#bot"><strong>Go Down</strong></a></div>
+		
+	</div>
+	<div class="tborder topic_table" id="messageindex">
+		<table class="table_grid" cellspacing="0">
+			<thead>
+				<tr class="catbg">
+					<th scope="col" class="first_th" width="8%" colspan="2">&nbsp;</th>
+					<th scope="col" class="lefttext"><a href="../sort,subject.html">Subject</a> / <a href="../sort,starter.html">Started by <img src="../../../Themes/carbonate202b1/images/sort_down.gif" alt="" /></a></th>
+					<th scope="col" width="14%"><a href="../sort,replies.html">Replies</a> / <a href="../sort,views.html">Views</a></th>
+					<th scope="col" class="lefttext last_th" width="22%"><a href="../sort,last_post.html">Last post</a></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="icon1 lockedbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post_locked.gif" alt="" />
+					</td>
+					<td class="icon2 lockedbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject lockedbg2">
+						<div >
+							<span id="msg_9342"><a href="../../topic,992.0.html">How to upgrade a Linux CS2D VPS server (FTP IMPORTANT)</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=241.html" title="View the profile of MaxPlaysMC">MaxPlaysMC</a>
+								<small id="pages9342"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats lockedbg">
+						0 Replies
+						<br />
+						488 Views
+					</td>
+					<td class="lastpost lockedbg2">
+						<a href="../../topic,992.0.html#msg9342"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 23, 2015, 14:17:41<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=241.html">MaxPlaysMC</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_6099"><a href="../../topic,631.0.html">Server due to the crash.</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=241.html" title="View the profile of MaxPlaysMC">MaxPlaysMC</a>
+								<small id="pages6099"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						3 Replies
+						<br />
+						743 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,631.0.html#msg6102"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						July 07, 2014, 04:57:17<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=233.html">Oxoby</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_6193"><a href="../../topic,637.0.html">Report of Jepo's</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=241.html" title="View the profile of MaxPlaysMC">MaxPlaysMC</a>
+								<small id="pages6193"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						1 Replies
+						<br />
+						565 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,637.0.html#msg6195"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						July 12, 2014, 17:18:39<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=233.html">Oxoby</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/hot_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_10714"><a href="../../topic,1107.0.html">''New'' USGN account!</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=1102.html" title="View the profile of Mast#">Mast#</a>
+								<small id="pages10714">&#171; <a class="navPages" href="../../topic,1107.0.html">1</a> <a class="navPages" href="../../topic,1107.15.html">2</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						16 Replies
+						<br />
+						2654 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1107.15.html#msg10748"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 14, 2016, 22:20:26<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=13.html">ŦƲƦƙɘƳ</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 lockedbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/hot_post_locked.gif" alt="" />
+					</td>
+					<td class="icon2 lockedbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject lockedbg2">
+						<div >
+							<span id="msg_10039"><a href="../../topic,1055.0.html">Name faker.</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=1102.html" title="View the profile of Mast#">Mast#</a>
+								<small id="pages10039">&#171; <a class="navPages" href="../../topic,1055.0.html">1</a> <a class="navPages" href="../../topic,1055.15.html">2</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats lockedbg">
+						16 Replies
+						<br />
+						2610 Views
+					</td>
+					<td class="lastpost lockedbg2">
+						<a href="../../topic,1055.15.html#msg10058"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						June 09, 2016, 09:15:27<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=1102.html">Mast#</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_10591"><a href="../../topic,1098.0.html">Rank List</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=1102.html" title="View the profile of Mast#">Mast#</a>
+								<small id="pages10591"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						0 Replies
+						<br />
+						349 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1098.0.html#msg10591"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						September 10, 2016, 11:02:32<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=1102.html">Mast#</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_1546"><a href="../../topic,180.0.html">New hat</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=128.html" title="View the profile of Mariox222">Mariox222</a>
+								<small id="pages1546"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						5 Replies
+						<br />
+						977 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,180.0.html#msg1654"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						June 20, 2013, 20:29:14<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=132.html">lori999</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_10585"><a href="../../topic,1097.0.html">Unban Request by marcel_pl</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=1116.html" title="View the profile of marcel_pl">marcel_pl</a>
+								<small id="pages10585"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						11 Replies
+						<br />
+						1350 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1097.0.html#msg10638"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						September 23, 2016, 01:29:40<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=1068.html">siN</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/clip.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_9531"><a href="../../topic,1014.0.html">kek</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=384.html" title="View the profile of Maloo">Maloo</a>
+								<small id="pages9531"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						1 Replies
+						<br />
+						715 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1014.0.html#msg9532"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						March 01, 2016, 22:22:19<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=13.html">ŦƲƦƙɘƳ</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_9547"><a href="../../topic,1016.0.html">Hacker Report</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=384.html" title="View the profile of Maloo">Maloo</a>
+								<small id="pages9547"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						2 Replies
+						<br />
+						922 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1016.0.html#msg9552"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						March 24, 2016, 19:25:15<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=13.html">ŦƲƦƙɘƳ</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_9719"><a href="../../topic,1031.0.html">Another Ddos attack</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=384.html" title="View the profile of Maloo">Maloo</a>
+								<small id="pages9719"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						3 Replies
+						<br />
+						854 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1031.0.html#msg9735"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						April 28, 2016, 19:35:04<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=1.html">Häppy C@mper</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_9868"><a href="../../topic,1047.0.html">Ddoser</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=384.html" title="View the profile of Maloo">Maloo</a>
+								<small id="pages9868"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						7 Replies
+						<br />
+						1548 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1047.0.html#msg10038"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						June 07, 2016, 15:19:49<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=1101.html">Se7en</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_10683"><a href="../../topic,1103.0.html">Ddoser</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=384.html" title="View the profile of Maloo">Maloo</a>
+								<small id="pages10683"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						2 Replies
+						<br />
+						524 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,1103.0.html#msg10685"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						October 17, 2016, 08:26:01<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=155.html">Range Rover</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/veryhot_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_3223"><a href="../../topic,341.0.html">Christmas</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages3223">&#171; <a class="navPages" href="../../topic,341.0.html">1</a> <a class="navPages" href="../../topic,341.15.html">2</a>  &#187;</small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						26 Replies
+						<br />
+						4688 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,341.15.html#msg9486"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						December 21, 2015, 07:13:04<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=155.html">Range Rover</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_3287"><a href="../../topic,349.0.html">New map</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages3287"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						1 Replies
+						<br />
+						713 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,349.0.html#msg3318"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						December 25, 2013, 17:27:07<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=61.html">Maciek</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_6103"><a href="../../topic,632.0.html">Table with top levels</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages6103"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						10 Replies
+						<br />
+						1887 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,632.0.html#msg7740"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						February 28, 2015, 10:58:39<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=94.html">N`</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_3299"><a href="../../topic,352.0.html">Merry Christmas everyone!</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages3299"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						12 Replies
+						<br />
+						1668 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,352.0.html#msg3330"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						January 01, 2014, 17:14:41<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=37.html">Ice-cream16</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_3400"><a href="../../topic,370.0.html">Harrasing me.</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages3400"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						6 Replies
+						<br />
+						1084 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,370.0.html#msg3412"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						January 18, 2014, 10:08:45<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=78.html">destroyer ita</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_776"><a href="../../topic,129.0.html">delete this</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages776"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						7 Replies
+						<br />
+						1323 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,129.0.html#msg789"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						April 24, 2013, 10:20:47<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=51.html">SemihLord</a>
+					</td>
+				</tr>
+				<tr>
+					<td class="icon1 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" />
+					</td>
+					<td class="icon2 windowbg">
+						<img src="../../../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+					</td>
+					<td class="subject windowbg2">
+						<div >
+							<span id="msg_2916"><a href="../../topic,303.0.html">Bugged Turrets</a></span>
+							<p>Started by <a href="../../../index.php%3Faction=profile%3Bu=61.html" title="View the profile of Maciek">Maciek</a>
+								<small id="pages2916"></small>
+							</p>
+						</div>
+					</td>
+					<td class="stats windowbg">
+						7 Replies
+						<br />
+						1195 Views
+					</td>
+					<td class="lastpost windowbg2">
+						<a href="../../topic,303.0.html#msg2924"><img src="../../../Themes/carbonate202b1/images/icons/last_post.gif" alt="Last post" title="Last post" /></a>
+						November 10, 2013, 15:30:38<br />
+						by <a href="../../../index.php%3Faction=profile%3Bu=34.html">Criss Leo</a>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<a id="bot"></a>
+	<div class="pagesection">
+		
+		<div class="pagelinks">Pages: <a class="navPages" href="../../board,3.0/sort,starter/desc.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php'+'?board=3.%1$d;sort=starter;desc', 20, 40, 20);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="../../board,3.40/sort,starter/desc.html">3</a> <a class="navPages" href="../../board,3.60/sort,starter/desc.html">4</a> [<strong>5</strong>] <a class="navPages" href="../../board,3.100/sort,starter/desc.html">6</a> <a class="navPages" href="../../board,3.120/sort,starter/desc.html">7</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?board=3.%1$d;sort=starter;desc', 140, 220, 20);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="../../board,3.220/sort,starter/desc.html">12</a>  &nbsp;&nbsp;<a href="desc.html#top"><strong>Go Up</strong></a></div>
+	</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="../../../index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="../../../index.php%3Faction=forum.html#c1"><span>General Category</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="../../board,3.0.html"><span>Server</span></a> (Moderator: <a href="../../../index.php%3Faction=profile%3Bu=213.html" title="Board Moderator">Bounty Hunter</a>)
+			</li>
+		</ul>
+	</div>
+	<div class="tborder" id="topic_icons">
+		<div class="description">
+			<p class="floatright" id="message_index_jump_to">&nbsp;</p>
+			<p class="floatleft smalltext">
+				<img src="../../../Themes/carbonate202b1/images/topic/normal_post.gif" alt="" align="middle" /> Normal Topic<br />
+				<img src="../../../Themes/carbonate202b1/images/topic/hot_post.gif" alt="" align="middle" /> Hot Topic (More than 15 replies)<br />
+				<img src="../../../Themes/carbonate202b1/images/topic/veryhot_post.gif" alt="" align="middle" /> Very Hot Topic (More than 25 replies)
+			</p>
+			<p class="smalltext">
+				<img src="../../../Themes/carbonate202b1/images/icons/quick_lock.gif" alt="" align="middle" /> Locked Topic<br />
+				<img src="../../../Themes/carbonate202b1/images/icons/quick_sticky.gif" alt="" align="middle" /> Sticky Topic<br />
+				<img src="../../../Themes/carbonate202b1/images/topic/normal_poll.gif" alt="" align="middle" /> Poll
+			</p>
+			<script type="text/javascript"><!-- // --><![CDATA[
+				if (typeof(window.XMLHttpRequest) != "undefined")
+					aJumpTo[aJumpTo.length] = new JumpTo({
+						sContainerId: "message_index_jump_to",
+						sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+						iCurBoardId: 3,
+						iCurBoardChildLevel: 0,
+						sCurBoardName: "Server",
+						sBoardChildLevelIndicator: "==",
+						sBoardPrefix: "=> ",
+						sCatSeparator: "-----------------------------",
+						sCatPrefix: "",
+						sGoButtonLabel: "Go!"
+					});
+			// ]]></script>
+			<br class="clear" />
+		</div>
+	</div>
+<script type="text/javascript" src="../../../Themes/default/scripts/topic.js"></script>
+<script type="text/javascript"><!-- // --><![CDATA[
+
+	// Hide certain bits during topic edit.
+	hide_prefixes.push("lockicon", "stickyicon", "pages", "newicon");
+
+	// Use it to detect when we've stopped editing.
+	document.onclick = modify_topic_click;
+
+	var mouse_on_div;
+	function modify_topic_click()
+	{
+		if (in_edit_mode == 1 && mouse_on_div == 0)
+			modify_topic_save("bf87e9bc1a7f4dcadc0eaef651f56d51", "a0b5d180155");
+	}
+
+	function modify_topic_keypress(oEvent)
+	{
+		if (typeof(oEvent.keyCode) != "undefined" && oEvent.keyCode == 13)
+		{
+			modify_topic_save("bf87e9bc1a7f4dcadc0eaef651f56d51", "a0b5d180155");
+			if (typeof(oEvent.preventDefault) == "undefined")
+				oEvent.returnValue = false;
+			else
+				oEvent.preventDefault();
+		}
+	}
+
+	// For templating, shown when an inline edit is made.
+	function modify_topic_show_edit(subject)
+	{
+		// Just template the subject.
+		setInnerHTML(cur_subject_div, '<input type="text" name="subject" value="' + subject + '" size="60" style="width: 95%;" maxlength="80" onkeypress="modify_topic_keypress(event)" class="input_text" /><input type="hidden" name="topic" value="' + cur_topic_id + '" /><input type="hidden" name="msg" value="' + cur_msg_id.substr(4) + '" />');
+	}
+
+	// And the reverse for hiding it.
+	function modify_topic_hide_edit(subject)
+	{
+		// Re-template the subject!
+		setInnerHTML(cur_subject_div, '<a href="../../topic,'&#32;+&#32;cur_topic_id&#32;+&#32;'.0.html">' + subject + '<' +'/a>');
+	}
+
+// ]]></script>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div></div>
+	<div id="footersection"><div style="width: 90%;margin: auto;">
+		<div class="floatright" style="text-align: right;"><strong>Carbonate</strong> design by <a href="http://www.blocweb.net">Bloc</a>
+		<br />variant: carbon 
+		</div>
+	
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="../../../index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+	</div></div></div>
+</body></html>

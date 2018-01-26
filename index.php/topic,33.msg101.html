@@ -1,0 +1,979 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="../Themes/carbonate202b1/css/index.css%3Ffin20.css" />
+	<link rel="stylesheet" type="text/css" href="http://hotchills.org/Themes/carbonate202b1/css/index_carbon.css?fin20" />
+	<script type="text/javascript" src="../Themes/default/scripts/script.js%3Ffin20"></script>
+	<script type="text/javascript" src="../Themes/carbonate202b1/scripts/theme.js%3Ffin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://hotchills.org/Themes/carbonate202b1";
+		var smf_default_theme_url = "http://hotchills.org/Themes/default";
+		var smf_images_url = "http://hotchills.org/Themes/carbonate202b1/images";
+		var smf_scripturl = "http://hotchills.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Bonzo new admin" />
+	<title>Bonzo new admin</title>
+	<meta name="robots" content="noindex" />
+	<link rel="canonical" href="topic,33.0.html" />
+	<link rel="help" href="../index.php%3Faction=help.html" />
+	<link rel="search" href="../index.php%3Faction=search.html" />
+	<link rel="contents" href="../index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Hot Chills - RSS" href="../index.php%3Ftype=rss%3Baction=.xml" />
+	<link rel="prev" href="topic,33.0/prev_next,prev.html" />
+	<link rel="next" href="topic,33.0/prev_next,next.html" />
+	<link rel="index" href="board,2.0.html" />
+	<link rel="stylesheet" type="text/css" id="portal_css" href="../Themes/default/css/portal.css" />
+	<script type="text/javascript" src="../Themes/default/scripts/portal.js%3F235"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var sp_images_url = "http://hotchills.org/Themes/carbonate202b1/images/sp";
+		function sp_collapseBlock(id)
+		{
+			mode = document.getElementById("sp_block_" + id).style.display == "" ? 0 : 1;
+			document.cookie = "sp_block_" + id + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_" + id).src = smf_images_url + (mode ? "/collapse.gif" : "/expand.gif");
+			document.getElementById("sp_block_" + id).style.display = mode ? "" : "none";
+		}
+		function sp_collapseSide(id)
+		{
+			var sp_sides = new Array();
+			sp_sides[1] = "sp_left";
+			sp_sides[4] = "sp_right";
+			mode = document.getElementById(sp_sides[id]).style.display == "" ? 0 : 1;
+			document.cookie = sp_sides[id] + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_side" + id).src = sp_images_url + (mode ? "/collapse.png" : "/expand.png");
+			document.getElementById(sp_sides[id]).style.display = mode ? "" : "none";
+		}
+		window.addEventListener("load", sp_image_resize, false);
+	// ]]></script>
+	<style type="text/css">
+		#main_menu,
+		#admin_menu
+		{
+			width: 90%
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="subheader"><div style="width: 90%; margin: auto;">
+	<div id="uppertop">
+		<div class="floatright">January 25, 2018, 18:03:22</div>
+		<script type="text/javascript" src="../Themes/default/scripts/sha1.js"></script>
+		<form id="guest_form" action="http://hotchills.org/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'bf87e9bc1a7f4dcadc0eaef651f56d51');">
+			Welcome, <strong>Guest</strong>. Please <a href="../index.php%3Faction=login.html">login</a> or <a href="../index.php%3Faction=register.html">register</a>.&nbsp;
+			<input type="text" name="user" size="10"  />
+			<input type="password" name="passwrd" size="10"  />
+			<select name="cookielength">
+				<option value="60">1 Hour</option>
+				<option value="1440">1 Day</option>
+				<option value="10080">1 Week</option>
+				<option value="43200">1 Month</option>
+				<option value="-1" selected="selected">Forever</option>
+			</select>
+			<input type="submit" value="Login" />	
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+	</div>
+	<div id="top_section" style="clear: both; padding-top: 1em;">
+			<div class="floatright" id="news"><b>News: </b>
+				
+			</div>		
+		<img id="upshrink" src="../Themes/carbonate202b1/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none; clear: right;"  />
+			<h1>
+				<a href="../index.php.html"><img src="../HotChills.png" alt="Hot Chills" /></a>
+			</h1>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'uppertop',
+					'news'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'a0b5d180155',
+					sSessionId: 'bf87e9bc1a7f4dcadc0eaef651f56d51'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<div class="menuback">
+			<div class="menuback2">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home" class="toplevel">
+					<a class="firstlevel" href="../index.php.html">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_forum" class="toplevel">
+					<a class="active firstlevel" href="../index.php%3Faction=forum.html">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help" class="toplevel">
+					<a class="firstlevel" href="../index.php%3Faction=help.html">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search" class="toplevel">
+					<a class="firstlevel" href="../index.php%3Faction=search.html">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_login" class="toplevel">
+					<a class="firstlevel" href="../index.php%3Faction=login.html">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register" class="toplevel">
+					<a class="firstlevel" href="../index.php%3Faction=register.html">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+		<br class="clear" />
+		</div>
+	</div></div>
+	<div id="mainsection"><div style="width: 90%;margin: auto;">
+		<div id="innermain">	
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="../index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="../index.php%3Faction=forum.html#c1"><span>General Category</span></a> &#187;
+			</li>
+			<li>
+				<a href="board,2.0.html"><span>News and Announcements</span></a> (Moderator: <a href="../index.php%3Faction=profile%3Bu=213.html" title="Board Moderator">Bounty Hunter</a>) &#187;
+			</li>
+			<li class="last">
+				<a href="topic,33.0.html"><span>Bonzo new admin</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="sp_right sp_fullwidth">
+		<a href="topic,33.msg101.html#side" onclick="return sp_collapseSide(1)"><img src="../Themes/carbonate202b1/images/sp/collapse.png" alt="collapse" id="sp_collapse_side1" /></a>
+	</div>
+	<table id="sp_main">
+		<tr>
+			<td id="sp_left" width="200">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('21')"><img id="sp_collapse_21" src="../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Server Information
+		</h3>
+	</div>
+	<div id="sp_block_21" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block"><table><tbody><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Name:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">IP:</td><td class="windowbg info" style="padding: 0 0.3em;">83.209.176.183</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Port:</td><td class="windowbg info" style="padding: 0 0.3em;">36963</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Map:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Players:</td><td class="windowbg info" style="padding: 0 0.3em;">0&nbsp;&nbsp;<span title="">[Hover]</span></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Ranks:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="page,page482.html">[Link]</a></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Traffic:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="page,page837.html">[Link]</a></td></tr></tbody></table>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('2')"><img id="sp_collapse_2" src="../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Who&#039;s Online
+		</h3>
+	</div>
+	<div id="sp_block_2" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<ul class="sp_list">
+									<li><img src="../Themes/carbonate202b1/images/sp/dot2.png" alt="Dot" title="Dot" /> Guests: 8</li>
+									<li><img src="../Themes/carbonate202b1/images/sp/dot3.png" alt="Dot" title="Dot" /> Hidden: 0</li>
+									<li><img src="../Themes/carbonate202b1/images/sp/dot4.png" alt="Dot" title="Dot" /> Users: 1</li>
+									<li><img src="../Themes/carbonate202b1/images/sp/dot5.png" alt="Dot" title="Dot" /> Users Online:</li>
+								</ul>
+								<div class="sp_online_flow">
+									<ul class="sp_list">
+										<li class="sp_list_indent"><img src="../Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="../index.php%3Faction=profile%3Bu=1.html" style="color: #FF0000;">Häppy C@mper</a></li>
+									</ul>
+								</div>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('11')"><img id="sp_collapse_11" src="../Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Recent Posts
+		</h3>
+	</div>
+	<div id="sp_block_11" class="sp_block_section_last" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<a href="topic,1148.msg11194/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="../index.php%3Faction=profile%3Bu=133.html">Nighthawk</a><br />[December 17, 2017, 01:07:55]</span><br /><hr />
+								<a href="topic,1148.msg11193/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="../index.php%3Faction=profile%3Bu=155.html">Range Rover</a><br />[December 09, 2017, 16:33:17]</span><br /><hr />
+								<a href="topic,1149.msg11192/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../index.php%3Faction=profile%3Bu=384.html">Maloo</a><br />[November 28, 2017, 22:47:06]</span><br /><hr />
+								<a href="topic,1149.msg11191/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../index.php%3Faction=profile%3Bu=213.html">Bounty Hunter</a><br />[November 28, 2017, 18:29:07]</span><br /><hr />
+								<a href="topic,1149.msg11190/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="../index.php%3Faction=profile%3Bu=1068.html">siN</a><br />[November 28, 2017, 10:45:22]</span><br />
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+			</td>
+			<td id="sp_center">
+			<a id="top"></a>
+			<a id="msg100"></a>
+			<div class="pagesection">
+				<div class="nextlinks"><a href="topic,33.0/prev_next,prev.html#new">&laquo; previous</a> <a href="topic,33.0/prev_next,next.html#new">next &raquo;</a></div>
+		<div class="buttonlist floatright">
+			<ul>
+				<li><a class="button_strip_print" href="../index.php%3Faction=printpage%3Btopic=33.0.html" rel="new_win nofollow"><span class="last">Print</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Pages: [<strong>1</strong>]   &nbsp;&nbsp;<a href="topic,33.msg101.html#lastPost"><strong>Go Down</strong></a></div>
+			</div>
+			<div id="forumposts">
+				<div class="cat_bar">
+					<h3 class="catbg">
+						<img src="../Themes/carbonate202b1/images/topic/normal_post.gif" align="bottom" alt="" />
+						<span id="author">Author</span>
+						Topic: Bonzo new admin &nbsp;(Read 3015 times)
+					</h3>
+				</div>
+				<form action="http://hotchills.org/index.php?action=quickmod2;topic=33.0" method="post" accept-charset="UTF-8" name="quickModForm" id="quickModForm" style="margin: 0;" onsubmit="return oQuickModify.bInEditMode ? oQuickModify.modifySave('bf87e9bc1a7f4dcadc0eaef651f56d51', 'a0b5d180155') : false">
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useron.gif" alt="Online" />
+								<a href="../index.php%3Faction=profile%3Bu=1.html" title="View the profile of Häppy C@mper">Häppy C@mper</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_100_extra_info">
+								<li class="membergroup">Administrator</li>
+								<li class="postgroup">Sr. Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=1.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=466%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 389</li>
+								<li class="blurb">Genuine fogey</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=1.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+										<li><a href="../index.html" title="Hot Chills" target="_blank" class="new_win"><img src="../Themes/carbonate202b1/images/www_sm.gif" alt="Hot Chills" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_100">
+										<a href="topic,33.msg100.html#msg100" rel="nofollow">Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong> on:</strong> February 19, 2013, 13:00:45 &#187;</div>
+									<div id="msg_100_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_100">Bonzo is now admin of HC // Fun. From now on he will be the one approving new moderators.<br /><br />Thanks for taking this role, Bonzo, and good luck!<br /><br />I will focus on developing the server and the script.<br /><br />Edit: Bonzo has selected Turkey to be his co-admin. Good luck to both of you!</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_100">
+								&#171; <em>Last Edit: February 19, 2013, 19:15:08 by Häppy C@mper</em> &#187;
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_100_signature">Just because you&#039;re paranoid doesn&#039;t mean they aren&#039;t after you. <img src="../Smileys/default/shocked.gif" alt="&#58;o" title="Shocked" class="smiley" /></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg101"></a><a id="new"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=30.html" title="View the profile of Siprox">Siprox</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_101_extra_info">
+								<li class="postgroup">Newbie</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=30.html">
+										<img class="avatar" src="http://media.steampowered.com/steamcommunity/public/images/avatars/83/831816c21d931b388d4662467d4c541437f1fc20_full.jpg" width="65" height="65" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 35</li>
+								<li class="blurb">:)</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=30.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_101">
+										<a href="topic,33.msg101.html#msg101" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #1 on:</strong> February 19, 2013, 13:03:48 &#187;</div>
+									<div id="msg_101_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_101">Good luck, Bonzo!</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_101">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg102"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=33.html" title="View the profile of &gt;sTick&lt;">&gt;sTick&lt;</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_102_extra_info">
+								<li class="postgroup">Newbie</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=33.html">
+										<img class="avatar" src="http://31.media.tumblr.com/0732e9808b79aad519ed09909cbc497b/tumblr_inline_n6cbloJTER1rknt96.gif" width="65" height="65" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 10</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=33.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_102">
+										<a href="topic,33.msg102.html#msg102" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #2 on:</strong> February 19, 2013, 13:06:37 &#187;</div>
+									<div id="msg_102_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_102">GOOD Luck Dude&nbsp; <img src="../Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_102">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_102_signature"><a href="http://www.auplod.com/i-upoadl46fe0.html" class="bbc_link" target="_blank"><img src="http://www.auplod.com/u/upoadl46fe0.png" alt="" class="bbc_img" /></a></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg104"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=4.html" title="View the profile of Bonzo">Bonzo</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_104_extra_info">
+								<li class="membergroup">CS2D Moderator</li>
+								<li class="postgroup">Sr. Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/starmod.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=4.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=56%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 342</li>
+								<li class="blurb">Hi there, this is my profile.</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=4.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_104">
+										<a href="topic,33.msg104.html#msg104" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #3 on:</strong> February 19, 2013, 14:13:20 &#187;</div>
+									<div id="msg_104_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_104">Thank you everybody for support and especially you Happy, for offering me this opportunity.<br /><br />I will do my best (or rage-quit trying). <img src="../Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_104">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_104_signature">&quot;Tastes like heresy. Delicious heresy.&quot; - TB, 2014</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg109"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=13.html" title="View the profile of ŦƲƦƙɘƳ">ŦƲƦƙɘƳ</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_109_extra_info">
+								<li class="membergroup">CS2D Administrator</li>
+								<li class="postgroup">Hero Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/staradmin.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=13.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=251%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 592</li>
+								<li class="blurb">Hellouw!</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=13.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+										<li><a href="http://www.youtube.com" title="YouTube" target="_blank" class="new_win"><img src="../Themes/carbonate202b1/images/www_sm.gif" alt="YouTube" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_109">
+										<a href="topic,33.msg109.html#msg109" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #4 on:</strong> February 19, 2013, 16:31:49 &#187;</div>
+									<div id="msg_109_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_109">Wow, nice.. (Jealous)<br /><br />Good luck!</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_109">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_109_signature"><span style="color: red;" class="bbc_color"><strong>^^</strong></span></div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg118"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=32.html" title="View the profile of Cpt.Kenpachi">Cpt.Kenpachi</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_118_extra_info">
+								<li class="membergroup">CS2D Moderator</li>
+								<li class="postgroup">Newbie</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/starmod.gif" alt="*" /></li>
+								<li class="postcount">Posts: 23</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=32.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_118">
+										<a href="topic,33.msg118.html#msg118" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #5 on:</strong> February 19, 2013, 18:48:47 &#187;</div>
+									<div id="msg_118_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_118">Well, I thought I&#039;d put my input on this topic.<br />Bonzo is one of very few people I&#039;d even consider recommending to be an Administrator, so this is quite a good choice. My only tips are is to not allow the privileges <span class="bbc_u">alter</span> how you act and be careful who you allow to become a moderator who has the ability to <span class="bbc_u">ban</span> users.<br /><br />Congratulations on becoming an Administrator, i hope you enjoy it.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_118">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg119"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=4.html" title="View the profile of Bonzo">Bonzo</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_119_extra_info">
+								<li class="membergroup">CS2D Moderator</li>
+								<li class="postgroup">Sr. Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/starmod.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=4.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=56%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 342</li>
+								<li class="blurb">Hi there, this is my profile.</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=4.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_119">
+										<a href="topic,33.msg119.html#msg119" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #6 on:</strong> February 19, 2013, 18:55:48 &#187;</div>
+									<div id="msg_119_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_119">Thank you Kenpachi. <img src="../Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /><br />Most of what I know of being a Mod I learned from your community so I reckon with a little guidance from Happy / you I will do all-right.</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_119">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_119_signature">&quot;Tastes like heresy. Delicious heresy.&quot; - TB, 2014</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg155"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=8.html" title="View the profile of @N@$">@N@$</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_155_extra_info">
+								<li class="postgroup">Newbie</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=8.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=3%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 13</li>
+								<li class="blurb">Palestine &lt;3 Jordan</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=8.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_155">
+										<a href="topic,33.msg155.html#msg155" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #7 on:</strong> February 20, 2013, 13:36:28 &#187;</div>
+									<div id="msg_155_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_155">Congratz Bonzo and Turkey ^_^</div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_155">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_155_signature">&quot;YOU CAN KILL A REVOLUTIONARY BUT YOU CAN NEVER KILL THE REVOLUTION&quot;<br />Palestine &lt;3</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg242"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=6.html" title="View the profile of Da boss">Da boss</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_242_extra_info">
+								<li class="postgroup">Jr. Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /></li>
+								<li class="postcount">Posts: 65</li>
+								<li class="blurb">A balanced diet is a cookie in each hand.</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=6.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_242">
+										<a href="topic,33.msg242.html#msg242" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #8 on:</strong> February 23, 2013, 22:11:40 &#187;</div>
+									<div id="msg_242_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_242">Congrats bronzie, you deserve it <img src="../Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_242">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg257"></a>
+				<div class="windowbg2">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=46.html" title="View the profile of Fraan.-">Fraan.-</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_257_extra_info">
+								<li class="postgroup">Newbie</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/star.gif" alt="*" /></li>
+								<li class="postcount">Posts: 1</li>
+								<li class="blurb">Fuck off !</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=46.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_257">
+										<a href="topic,33.msg257.html#msg257" rel="nofollow">Congratz to Bonzo ! :D</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #9 on:</strong> February 26, 2013, 19:57:20 &#187;</div>
+									<div id="msg_257_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_257">&nbsp;<img src="../Smileys/default/lipsrsealed.gif" alt="&#58;-X" title="Lips sealed" class="smiley" /> Sorry , I am new user here, <br />Bonzo, I dont know you, but I wish to you all luck of the W O R L D !<br />Congratz man&nbsp; <img src="../Smileys/default/tongue.gif" alt="&#58;P" title="Tongue" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_257">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_257_signature">Fuck off !</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				<a id="msg258"></a>
+				<div class="windowbg">
+					<span class="topslice"><span></span></span>
+					<div class="post_wrapper">
+						<div class="poster">
+							<h4>
+								<img src="../Themes/carbonate202b1/images/useroff.gif" alt="Offline" />
+								<a href="../index.php%3Faction=profile%3Bu=4.html" title="View the profile of Bonzo">Bonzo</a>
+							</h4>
+							<ul class="reset smalltext" id="msg_258_extra_info">
+								<li class="membergroup">CS2D Moderator</li>
+								<li class="postgroup">Sr. Member</li>
+								<li class="stars"><img src="../Themes/carbonate202b1/images/starmod.gif" alt="*" /></li>
+								<li class="avatar">
+									<a href="../index.php%3Faction=profile%3Bu=4.html">
+										<img class="avatar" src="../index.php%3Faction=dlattach%3Battach=56%3Btype=avatar" alt="" />
+									</a>
+								</li>
+								<li class="postcount">Posts: 342</li>
+								<li class="blurb">Hi there, this is my profile.</li>
+								<li class="profile">
+									<ul>
+										<li><a href="../index.php%3Faction=profile%3Bu=4.html"><img src="../Themes/carbonate202b1/images/icons/profile_sm.gif" alt="View Profile" title="View Profile" /></a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+						<div class="postarea">
+							<div class="flow_hidden">
+								<div class="keyinfo">
+									<div class="messageicon">
+										<img src="../Themes/carbonate202b1/images/post/xx.gif" alt="" />
+									</div>
+									<h5 id="subject_258">
+										<a href="topic,33.msg258.html#msg258" rel="nofollow">Re: Bonzo new admin</a>
+									</h5>
+									<div class="smalltext">&#171; <strong>Reply #10 on:</strong> February 26, 2013, 20:15:22 &#187;</div>
+									<div id="msg_258_quick_mod"></div>
+								</div>
+							</div>
+							<div class="post">
+								<div class="inner" id="msg_258">Welcome on the forums and thank you. Will need all the luck I can get my hands on. <img src="../Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /></div>
+							</div>
+						</div>
+						<div class="moderatorbar">
+							<div class="smalltext modified" id="modified_258">
+							</div>
+							<div class="smalltext reportlinks">
+								<img src="../Themes/carbonate202b1/images/ip.gif" alt="" />
+								Logged
+							</div>
+							<div class="signature" id="msg_258_signature">&quot;Tastes like heresy. Delicious heresy.&quot; - TB, 2014</div>
+						</div>
+					</div>
+					<span class="botslice"><span></span></span>
+				</div>
+				<hr class="post_separator" />
+				</form>
+			</div>
+			<a id="lastPost"></a>
+			<div class="pagesection">
+				
+		<div class="buttonlist floatright">
+			<ul>
+				<li><a class="button_strip_print" href="../index.php%3Faction=printpage%3Btopic=33.0.html" rel="new_win nofollow"><span class="last">Print</span></a></li>
+			</ul>
+		</div>
+				<div class="pagelinks floatleft">Pages: [<strong>1</strong>]   &nbsp;&nbsp;<a href="topic,33.msg101.html#top"><strong>Go Up</strong></a></div>
+				<div class="nextlinks_bottom"><a href="topic,33.0/prev_next,prev.html#new">&laquo; previous</a> <a href="topic,33.0/prev_next,next.html#new">next &raquo;</a></div>
+			</div>
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="../index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="../index.php%3Faction=forum.html#c1"><span>General Category</span></a> &#187;
+			</li>
+			<li>
+				<a href="board,2.0.html"><span>News and Announcements</span></a> (Moderator: <a href="../index.php%3Faction=profile%3Bu=213.html" title="Board Moderator">Bounty Hunter</a>) &#187;
+			</li>
+			<li class="last">
+				<a href="topic,33.0.html"><span>Bonzo new admin</span></a>
+			</li>
+		</ul>
+	</div>
+			<div id="moderationbuttons"></div>
+			<div class="plainbox" id="display_jump_to">&nbsp;</div>
+		<br class="clear" />
+				<script type="text/javascript" src="../Themes/default/scripts/topic.js"></script>
+				<script type="text/javascript"><!-- // --><![CDATA[
+					var oQuickReply = new QuickReply({
+						bDefaultCollapsed: true,
+						iTopicId: 33,
+						iStart: 0,
+						sScriptUrl: smf_scripturl,
+						sImagesUrl: "http://hotchills.org/Themes/carbonate202b1/images",
+						sContainerId: "quickReplyOptions",
+						sImageId: "quickReplyExpand",
+						sImageCollapsed: "collapse.gif",
+						sImageExpanded: "expand.gif",
+						sJumpAnchor: "quickreply"
+					});
+					if ('XMLHttpRequest' in window)
+					{
+						var oQuickModify = new QuickModify({
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iTopicId: 33,
+							sTemplateBodyEdit: '\n\t\t\t\t\t\t\t\t<div id="quick_edit_body_container" style="width: 90%">\n\t\t\t\t\t\t\t\t\t<div id="error_box" style="padding: 4px;" class="error"><' + '/div>\n\t\t\t\t\t\t\t\t\t<textarea class="editor" name="message" rows="12" style="width: 100%; margin-bottom: 10px;" tabindex="1">%body%<' + '/textarea><br />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="a0b5d180155" value="bf87e9bc1a7f4dcadc0eaef651f56d51" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="topic" value="33" />\n\t\t\t\t\t\t\t\t\t<input type="hidden" name="msg" value="%msg_id%" />\n\t\t\t\t\t\t\t\t\t<div class="righttext">\n\t\t\t\t\t\t\t\t\t\t<input type="submit" name="post" value="Save" tabindex="2" onclick="return oQuickModify.modifySave(\'bf87e9bc1a7f4dcadc0eaef651f56d51\', \'a0b5d180155\');" accesskey="s" class="button_submit" />&nbsp;&nbsp;<input type="submit" name="cancel" value="Cancel" tabindex="3" onclick="return oQuickModify.modifyCancel();" class="button_submit" />\n\t\t\t\t\t\t\t\t\t<' + '/div>\n\t\t\t\t\t\t\t\t<' + '/div>',
+							sTemplateSubjectEdit: '<input type="text" style="width: 90%;" name="subject" value="%subject%" size="80" maxlength="80" tabindex="4" class="input_text" />',
+							sTemplateBodyNormal: '%body%',
+							sTemplateSubjectNormal: '<a hr'+'ef="http://hotchills.org/index.php'+'?topic=33.msg%msg_id%#msg%msg_id%" rel="nofollow">%subject%<' + '/a>',
+							sTemplateTopSubject: 'Topic: %subject% &nbsp;(Read 3015 times)',
+							sErrorBorderStyle: '1px solid red'
+						});
+
+						aJumpTo[aJumpTo.length] = new JumpTo({
+							sContainerId: "display_jump_to",
+							sJumpToTemplate: "<label class=\"smalltext\" for=\"%select_id%\">Jump to:<" + "/label> %dropdown_list%",
+							iCurBoardId: 2,
+							iCurBoardChildLevel: 0,
+							sCurBoardName: "News and Announcements",
+							sBoardChildLevelIndicator: "==",
+							sBoardPrefix: "=> ",
+							sCatSeparator: "-----------------------------",
+							sCatPrefix: "",
+							sGoButtonLabel: "go"
+						});
+
+						aIconLists[aIconLists.length] = new IconList({
+							sBackReference: "aIconLists[" + aIconLists.length + "]",
+							sIconIdPrefix: "msg_icon_",
+							sScriptUrl: smf_scripturl,
+							bShowModify: true,
+							iBoardId: 2,
+							iTopicId: 33,
+							sSessionId: "bf87e9bc1a7f4dcadc0eaef651f56d51",
+							sSessionVar: "a0b5d180155",
+							sLabelIconList: "Message Icon",
+							sBoxBackground: "transparent",
+							sBoxBackgroundHover: "#ffffff",
+							iBoxBorderWidthHover: 1,
+							sBoxBorderColorHover: "#adadad" ,
+							sContainerBackground: "#ffffff",
+							sContainerBorder: "1px solid #adadad",
+							sItemBorder: "1px solid #ffffff",
+							sItemBorderHover: "1px dotted gray",
+							sItemBackground: "transparent",
+							sItemBackgroundHover: "#e0e0f0"
+						});
+					}
+				// ]]></script>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div></div>
+	<div id="footersection"><div style="width: 90%;margin: auto;">
+		<div class="floatright" style="text-align: right;"><strong>Carbonate</strong> design by <a href="http://www.blocweb.net">Bloc</a>
+		<br />variant: carbon 
+		</div>
+	
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="../index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+	</div></div></div>
+</body></html>

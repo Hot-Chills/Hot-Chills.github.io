@@ -1,0 +1,448 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="Themes/carbonate202b1/css/index.css%3Ffin20.css" />
+	<link rel="stylesheet" type="text/css" href="http://hotchills.org/Themes/carbonate202b1/css/index_carbon.css?fin20" />
+	<script type="text/javascript" src="Themes/default/scripts/script.js%3Ffin20"></script>
+	<script type="text/javascript" src="Themes/carbonate202b1/scripts/theme.js%3Ffin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://hotchills.org/Themes/carbonate202b1";
+		var smf_default_theme_url = "http://hotchills.org/Themes/default";
+		var smf_images_url = "http://hotchills.org/Themes/carbonate202b1/images";
+		var smf_scripturl = "http://hotchills.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - bloccer" />
+	<title>Show Posts - bloccer</title>
+	<link rel="help" href="index.php%3Faction=help.html" />
+	<link rel="search" href="index.php%3Faction=search.html" />
+	<link rel="contents" href="index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Hot Chills - RSS" href="index.php%3Ftype=rss%3Baction=.xml" />
+	<link rel="stylesheet" type="text/css" id="portal_css" href="Themes/default/css/portal.css" />
+	<script type="text/javascript" src="Themes/default/scripts/portal.js%3F235"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var sp_images_url = "http://hotchills.org/Themes/carbonate202b1/images/sp";
+		function sp_collapseBlock(id)
+		{
+			mode = document.getElementById("sp_block_" + id).style.display == "" ? 0 : 1;
+			document.cookie = "sp_block_" + id + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_" + id).src = smf_images_url + (mode ? "/collapse.gif" : "/expand.gif");
+			document.getElementById("sp_block_" + id).style.display = mode ? "" : "none";
+		}
+		function sp_collapseSide(id)
+		{
+			var sp_sides = new Array();
+			sp_sides[1] = "sp_left";
+			sp_sides[4] = "sp_right";
+			mode = document.getElementById(sp_sides[id]).style.display == "" ? 0 : 1;
+			document.cookie = sp_sides[id] + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_side" + id).src = sp_images_url + (mode ? "/collapse.png" : "/expand.png");
+			document.getElementById(sp_sides[id]).style.display = mode ? "" : "none";
+		}
+		window.addEventListener("load", sp_image_resize, false);
+	// ]]></script>
+	<style type="text/css">
+		#main_menu,
+		#admin_menu
+		{
+			width: 90%
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="subheader"><div style="width: 90%; margin: auto;">
+	<div id="uppertop">
+		<div class="floatright">January 25, 2018, 20:12:37</div>
+		<script type="text/javascript" src="Themes/default/scripts/sha1.js"></script>
+		<form id="guest_form" action="http://hotchills.org/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'bf87e9bc1a7f4dcadc0eaef651f56d51');">
+			Welcome, <strong>Guest</strong>. Please <a href="index.php%3Faction=login.html">login</a> or <a href="index.php%3Faction=register.html">register</a>.&nbsp;
+			<input type="text" name="user" size="10"  />
+			<input type="password" name="passwrd" size="10"  />
+			<select name="cookielength">
+				<option value="60">1 Hour</option>
+				<option value="1440">1 Day</option>
+				<option value="10080">1 Week</option>
+				<option value="43200">1 Month</option>
+				<option value="-1" selected="selected">Forever</option>
+			</select>
+			<input type="submit" value="Login" />	
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+	</div>
+	<div id="top_section" style="clear: both; padding-top: 1em;">
+			<div class="floatright" id="news"><b>News: </b>
+				
+			</div>		
+		<img id="upshrink" src="Themes/carbonate202b1/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none; clear: right;"  />
+			<h1>
+				<a href="index.php.html"><img src="HotChills.png" alt="Hot Chills" /></a>
+			</h1>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'uppertop',
+					'news'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'a0b5d180155',
+					sSessionId: 'bf87e9bc1a7f4dcadc0eaef651f56d51'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<div class="menuback">
+			<div class="menuback2">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home" class="toplevel">
+					<a class="active firstlevel" href="index.php.html">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_forum" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=forum.html">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=help.html">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=search.html">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_login" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=login.html">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=register.html">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+		<br class="clear" />
+		</div>
+	</div></div>
+	<div id="mainsection"><div style="width: 90%;margin: auto;">
+		<div id="innermain">	
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=140.html"><span>Profile of bloccer</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=140%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php%3Faction=profile%3Bu=140%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="sp_right sp_fullwidth">
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=140.html#side" onclick="return sp_collapseSide(1)"><img src="Themes/carbonate202b1/images/sp/collapse.png" alt="collapse" id="sp_collapse_side1" /></a>
+	</div>
+	<table id="sp_main">
+		<tr>
+			<td id="sp_left" width="200">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('21')"><img id="sp_collapse_21" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Server Information
+		</h3>
+	</div>
+	<div id="sp_block_21" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block"><table><tbody><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Name:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">IP:</td><td class="windowbg info" style="padding: 0 0.3em;">83.209.176.183</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Port:</td><td class="windowbg info" style="padding: 0 0.3em;">36963</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Map:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Players:</td><td class="windowbg info" style="padding: 0 0.3em;">0&nbsp;&nbsp;<span title="">[Hover]</span></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Ranks:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page482.html">[Link]</a></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Traffic:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page837.html">[Link]</a></td></tr></tbody></table>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('2')"><img id="sp_collapse_2" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Who&#039;s Online
+		</h3>
+	</div>
+	<div id="sp_block_2" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<ul class="sp_list">
+									<li><img src="Themes/carbonate202b1/images/sp/dot2.png" alt="Dot" title="Dot" /> Guests: 2</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot3.png" alt="Dot" title="Dot" /> hidden: 0</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot4.png" alt="Dot" title="Dot" /> Users: 1</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot5.png" alt="Dot" title="Dot" /> Users Online:</li>
+								</ul>
+								<div class="sp_online_flow">
+									<ul class="sp_list">
+										<li class="sp_list_indent"><img src="Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="index.php%3Faction=profile%3Bu=1.html" style="color: #FF0000;">Häppy C@mper</a></li>
+									</ul>
+								</div>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('11')"><img id="sp_collapse_11" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Recent Posts
+		</h3>
+	</div>
+	<div id="sp_block_11" class="sp_block_section_last" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<a href="index.php/topic,1148.msg11194/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=133.html">Nighthawk</a><br />[December 17, 2017, 01:07:55]</span><br /><hr />
+								<a href="index.php/topic,1148.msg11193/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=155.html">Range Rover</a><br />[December 09, 2017, 16:33:17]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11192/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=384.html">Maloo</a><br />[November 28, 2017, 22:47:06]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11191/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=213.html">Bounty Hunter</a><br />[November 28, 2017, 18:29:07]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11190/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=1068.html">siN</a><br />[November 28, 2017, 10:45:22]</span><br />
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+			</td>
+			<td id="sp_center">
+<div id="admin_menudrop" style="position: relative; width: 100%;">
+	<div class="menuback">
+	<div class="menuback2">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=140.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=summary%3Bu=140.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=statistics%3Bu=140.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php%3Faction=profile%3Barea=showposts%3Bu=140.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=140.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=140.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=140.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+	</div>
+	</div>
+</div>
+<div id="admin_content" >
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="Themes/carbonate202b1/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="tabs">
+		<img src="Themes/carbonate202b1/images/selected.gif" alt="*" /> <strong><a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=140.html">Messages</a></strong> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=140.html">Topics</a> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=140.html">Attachments</a>
+	</p>
+	<p class="windowbg description">This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.</p>
+	<script type="text/javascript" src="Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - bloccer
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: [<strong>1</strong>] </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">1</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1797.html#msg1797">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 05, 2013, 07:59:51&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,199.msg1790.html#msg1790">Quote from: Chilla_Girl on July 04, 2013, 12:20:36</a></div></div><blockquote class="bbc_standard_quote">So, Mr. Bonzo, please unban him. But a little warning, if it turns out we were mistaken about this decision and we see your usgn id using a single hack, you wont get a 2nd chance <img src="Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /><br /><br />But I really belief I was just wrong, so have fun playing! <img src="Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>fair enough thank you&nbsp; <img src="Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">2</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1789.html#msg1789">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 04, 2013, 10:18:57&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<br />MST is still only 6 hours behind&nbsp; &nbsp;<img src="Smileys/default/huh.gif" alt="???" title="Huh" class="smiley" /> chilla hacking is for silly children of course I would never do such a thing.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">3</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1777.html#msg1777">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 03, 2013, 08:03:42&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					So if there is no problem can I get unbanned or is this still being looked into?<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">4</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1768.html#msg1768">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 01, 2013, 10:51:26&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,199.msg1767.html#msg1767">Quote from: Deus on June 30, 2013, 23:07:36</a></div></div><blockquote class="bbc_standard_quote">Not i banned you. We need the date when this happened.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />log says 18-jun-2013 as I stated above
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">5</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1766.html#msg1766">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 30, 2013, 22:02:27&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					rest of the log I didn&#039;t include<br /><br />[16:10:49] ----- Server joined -----<br />[16:10:49] U.S.G.N.: Ping/State &#039;playing&#039;<br />[16:10:51] bulkde joins the Counter-Terrorist Forces<br />[16:10:54] Player has left the game<br />[16:10:58] O.oxxxyMiroN* ._. killed TED with Laser<br />[16:11:00] Player connected<br />[16:11:02] » <a href="index.html" class="bbc_link" target="_blank">http://hotchills.org</a> «<br />[16:11:03] » Mac 10 «<br />[16:11:04] Player joins the Counter-Terrorist Forces<br />[16:11:17] Domitation Total 2014 killed <strong>Supreme with Mac 10<br />[16:11:21] O.oxxxyMiroN* ._. killed Domitation Total 2014 with Mac 10<br />[16:11:24] bulkde killed O.oxxxyMiroN* ._. with Mac 10<br />[16:11:32] bulkde killed [*DIV*] »Animes« with Mac 10<br />[16:11:32] <strong>Supreme has left the game (kicked)<br />[16:11:37] * Auto Teambalance *<br />[16:11:37] Player joins the Terrorist Forces<br />[16:11:37] » M4A1 «<br />[16:11:38] bulkde killed [*DIV*] »Animes« with M4A1<br />[16:11:39] Player killed Domitation Total 2014 with M4A1<br />[16:11:39] bulkde killed Player with M4A1<br />[16:11:40] TED killed O.oxxxyMiroN* ._. with M4A1<br />[16:11:45] » Deathrun «<br />[16:11:48] O.oxxxyMiroN* ._. killed TED with RPG Launcher<br />[16:11:48] O.oxxxyMiroN* ._. killed bulkde with RPG Launcher<br />[16:11:48] k¦O.oxxxyMiroN* ._.¦100¦100<br />[16:11:50] U.S.G.N.: Ping/State &#039;playing&#039;<br />[16:11:50] Chilla_Girl connected<br />[16:11:53] Player killed Domitation Total 2014 with Molotov Cocktail<br />[16:11:54] Chilla_Girl joins the Terrorist Forces<br />[16:11:58] » Scout and AWP «<br />[16:12:02] » <a href="index.html" class="bbc_link" target="_blank">http://hotchills.org</a> «<br /><br />Happened on june 18.&nbsp; possibly admin was in spectator mode didn&#039;t say anything? Hard to tell with logs then.&nbsp; </strong></strong>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">6</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1763.html#msg1763">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 29, 2013, 23:11:05&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					and AWP «<br />[16:12:02] » <a href="index.html" class="bbc_link" target="_blank">http://hotchills.org</a> «<br />[16:12:12] bulkde killed Player with Molotov Cocktail<br />[16:12:13] [*DIV*] »Animes« died<br />[16:12:13] [*DIV*] »Animes« is now a spectator<br />[16:12:17] TED killed O.oxxxyMiroN* ._. with Molotov Cocktail<br />[16:12:25] Chilla_Girl killed TED with AWP<br />[16:12:38] bulkde killed Chilla_Girl with AWP<br />[16:12:42] r¦O.oxxxyMiroN* ._.¦52 of 6342<br />¦4135,5523,3160,1.74,2 d 6 h<br />[16:12:43] » Chainsaw «<br />[16:12:45] O.oxxxyMiroN* ._. killed TED with Chainsaw<br />[16:12:45] Chilla_Girl killed bulkde with Chainsaw<br />[16:12:45] k¦Chilla_Girl¦10¦0<br />[16:12:46] Chilla_Girl killed Domitation Total 2014 with Chainsaw<br />[16:12:50] U.S.G.N.: Ping/State &#039;playing&#039;<br />[16:12:51] » M134 «<br />[16:13:01] TED killed O.oxxxyMiroN* ._. with Molotov Cocktail<br />[16:13:02] » <a href="index.html" class="bbc_link" target="_blank">http://hotchills.org</a> «<br />[16:13:09] Chilla_Girl killed Domitation Total 2014 with HE<br />[16:13:09] Chilla_Girl killed TED with HE<br />[16:13:29] Player killed bulkde with M134<br />[16:13:29] k¦Player¦12¦0<br />[16:13:30] bulkde killed Player with Molotov Cocktail<br />[16:13:31] O.oxxxyMiroN* ._. (All) *DEAD*: I`ve been waiting for you <img src="Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" /><br />[16:13:34] » FN F2000 «<br />[16:13:36] Chilla_Girl killed TED with FN F2000<br />[16:13:36] Domitation Total 2014 killed Player with FN F2000<br />[16:13:37] Domitation Total 2014 killed O.oxxxyMiroN* ._. with FN F2000<br />[16:13:37] Domitation Total 2014 killed Chilla_Girl with FN F2000<br />[16:13:42] » AK-47 «<br />[16:13:44] Player killed TED with AK-47<br />[16:13:44] Domitation Total 2014 killed O.oxxxyMiroN* ._. with AK-47<br />[16:13:44] bulkde killed Player with AK-47<br />[16:13:45] Chilla_Girl killed Domitation Total 2014 with AK-47<br />[16:13:46] bulkde killed Chilla_Girl with AK-47<br />[16:13:49] Chilla_Girl is now a spectator<br />[16:13:50] U.S.G.N.: Ping/State &#039;playing&#039;<br />[16:13:51] » HE «<br />[16:13:53] Player killed Domitation Total 2014 with Knife<br />[16:13:54] bulkde killed Player with HE<br />[16:13:54] bulkde killed O.oxxxyMiroN* ._. with Knife<br />[16:13:55] <strong>D0om connected<br />[16:13:55] <strong>D0om joins the Terrorist Forces<br />[16:13:56] O.oxxxyMiroN* ._. killed TED with HE<br />[16:13:59] » Satchel charges «<br />[16:14:00] <strong>D0om killed Domitation Total 2014 with Knife<br />[16:14:02] » <a href="index.html" class="bbc_link" target="_blank">http://hotchills.org</a> «<br />[16:14:03] O.oxxxyMiroN* ._. killed bulkde with Satchel Charge<br />[16:14:03] k¦O.oxxxyMiroN* ._.¦100¦100<br />[16:14:04] TED killed <strong>D0om with Satchel Charge<br />[16:14:04] TED killed Player with Satchel Charge<br />[16:14:12] O.oxxxyMiroN* ._. killed TED with Satchel Charge<br />[16:14:17] » Flamethrower and speed «<br />[16:14:17] <strong>D0om killed by Mine<br />[16:14:21] Domitation Total 2014 killed by Mine<br />[16:14:23] Domitation Total 2014 has left the game<br />[16:14:26] bulkde killed by Mine<br />[16:14:35] bulkde is now a spectator<br />[16:14:37] Player killed by Mine<br />[16:14:43] O.oxxxyMiroN* ._. killed TED with Flamethrower<br />[16:14:44] <strong>Carnage connected<br />[16:14:44] <strong>Carnage joins the Counter-Terrorist Forces<br />[16:14:44] <strong>Gun connected<br />[16:14:44] <strong>Gun joins the Counter-Terrorist Forces<br />[16:14:47] bulkde joins the Counter-Terrorist Forces<br />[16:14:47] O.oxxxyMiroN* ._.: ...<br />[16:14:48] Player *DEAD*<br />: mines win <img src="Smileys/default/cheesy.gif" alt="&#58;D" title="Cheesy" class="smiley" /><br />[16:14:48] » Portal gun and M3 «<br />[16:14:50] Your level is now: Guest.<br />[16:14:51] U.S.G.N.: Ping/State &#039;playing&#039;<br />[16:14:52] bulkde: must be blind<br />[16:14:55] bulkde has left the game (banned)<br /><br />refereed to someone being blind.. probably frustrated at some bad score teammate, is that worth a perma-ban?&nbsp; not the worst things people have said to each other on this server at times.. </strong></strong></strong></strong></strong></strong></strong></strong></strong>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">7</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1760.html#msg1760">Re: Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 29, 2013, 09:20:16&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,199.msg1759.html#msg1759">Quote from: Deus on June 29, 2013, 00:22:39</a></div></div><blockquote class="bbc_standard_quote">Your ingame name?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />mah bad on slow reply been working all day usually zany or bloc.. sometimes use different name though
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">8</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,199.msg1751.html#msg1751">Unban Request</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> June 28, 2013, 12:18:50&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Hello<br /><br />Not sure who rage-banned me. Many logs to look through and I don&#039;t remember the date<br />please find it in your heart to unban me&nbsp; &nbsp;: D<br /><br />I&#039;ve never hacked!<br /><br />usgn! 18375<br />aka zany<br /><br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: [<strong>1</strong>] </span>
+		</div>
+</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div></div>
+	<div id="footersection"><div style="width: 90%;margin: auto;">
+		<div class="floatright" style="text-align: right;"><strong>Carbonate</strong> design by <a href="http://www.blocweb.net">Bloc</a>
+		<br />variant: carbon 
+		</div>
+	
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+	</div></div></div>
+</body></html>

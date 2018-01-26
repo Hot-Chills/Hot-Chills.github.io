@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="robots" content="noindex" />
+		<link rel="canonical" href="index.php/topic,869.0.html" />
+		<title>Print Page - New command for vip</title>
+		<style type="text/css">
+			body, a
+			{
+				color: #000;
+				background: #fff;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			h1#title
+			{
+				font-size: large;
+				font-weight: bold;
+			}
+			h2#linktree
+			{
+				margin: 1em 0 2.5em 0;
+				font-size: small;
+				font-weight: bold;
+			}
+			dl#posts
+			{
+				width: 90%;
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			dt.postheader
+			{
+				border: solid #000;
+				border-width: 1px 0;
+				padding: 4px 0;
+			}
+			dd.postbody
+			{
+				margin: 1em 0 2em 2em;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			blockquote, code
+			{
+				border: 1px solid #000;
+				margin: 3px;
+				padding: 1px;
+				display: block;
+			}
+			code
+			{
+				font: x-small monospace;
+			}
+			blockquote
+			{
+				font-size: x-small;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			.centertext
+			{
+				text-align: center;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1 id="title">Hot Chills</h1>
+		<h2 id="linktree">General Category => Server => Topic started by: Sniper Killer on May 10, 2015, 18:51:32</h2>
+		<dl id="posts">
+			<dt class="postheader">
+				Title: <strong>New command for vip</strong><br />
+				Post by: <strong>Sniper Killer</strong> on <strong>May 10, 2015, 18:51:32</strong>
+			</dt>
+			<dd class="postbody">
+				hello i think we need new Command for vip !usgn id and show player usgn<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">addhook(&quot;say&quot;,&quot;onSay&quot;)<br />function onSay(id,txt)<br />&nbsp; &nbsp; &nbsp;if string.sub(txt,1,10) == &quot;!usgn&quot; then<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; local p = tonumber(string.sub(txt,12))<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if p and player(p,&quot;exists&quot;) then<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;msg2(id,player(p,&quot;name&quot;)..&quot;&#039;s USGN is &quot;..player(p,&quot;usgn&quot;))<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; end<br />&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return 1<br />&nbsp; &nbsp; &nbsp;end<br />end</code>[/glow][/shadow]
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>Nighthawk</strong> on <strong>May 10, 2015, 19:52:28</strong>
+			</dt>
+			<dd class="postbody">
+				Normal players are given VIP statuses after playing for 2 hours, this will be a bad idea as only moderators should be able to access a user&#039;s information which he may want to keep private. The VIP system on HC//Fun is quite different from other servers, mind.
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>Häppy C@mper</strong> on <strong>May 10, 2015, 20:06:29</strong>
+			</dt>
+			<dd class="postbody">
+				I agree with Nighthawk. Why do you think it&#039;s needed?
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>AREIOS</strong> on <strong>May 10, 2015, 21:14:30</strong>
+			</dt>
+			<dd class="postbody">
+				If I may share my opinion.<br /><br />I agree so called VIPs shouldn&#039;t have access to ones IP address, but I also think some active players should. They could actively help.<br /><br />A few hours ago I was in the latter category and eventhough I tried to note down cheaters, without their USGNs I couldn&#039;t really help. (Right Electron?)<br /><br />So my proposal is to make a new user group that could be handed out more freely to those who are eager to help.<br /><br />Perhaps rename VIP status to &quot;Server Regular&quot; and create new VIP for the above mentioned category. (Simply because the term VIP suggest its above Server Regular)<br /><br />So players who play 2 hours would be Server Regulars (or Regulars) and a little more advanced group would be the VIP, which would be given out by admins (perhaps based on the suggestion of mods) and they would have a few more privilige compared to regulars (including the access to USGNs).<br /><br />
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>Häppy C@mper</strong> on <strong>May 10, 2015, 22:26:33</strong>
+			</dt>
+			<dd class="postbody">
+				Thanks for your opinion, AREIOS. V.I.P.s can report players. The U.S.G.N. and IP are logged and can be read by admins. So it&#039;s there already. I don&#039;t know if people know about it, though.
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>AREIOS</strong> on <strong>May 10, 2015, 22:38:02</strong>
+			</dt>
+			<dd class="postbody">
+				I personally saw the command and I think I even used it once or twice but there was no feedback so I didn&#039;t know if its useful or not.<br /><br />Maybe an information banner every 2 min would help. Saying: &quot;Use the report function for xy&quot;<br />But then again, if nearly every player have this command, the reports could be spammed and there would be no way to verify the quality.
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>Bounty Hunter</strong> on <strong>May 11, 2015, 09:56:43</strong>
+			</dt>
+			<dd class="postbody">
+				I would not like to be more user groups. There would be a mess in server like on Starkkz admin script.
+			</dd>
+			<dt class="postheader">
+				Title: <strong>Re: New command for vip</strong><br />
+				Post by: <strong>ŦƲƦƙɘƳ</strong> on <strong>May 11, 2015, 13:39:50</strong>
+			</dt>
+			<dd class="postbody">
+				<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,869.msg8153.html#msg8153">Quote from: Bounty Hunter on May 11, 2015, 09:56:43</a></div></div><blockquote class="bbc_standard_quote">I would not like to be more user groups. There would be a mess in server like on Starkkz admin script.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Same here.
+			</dd>
+		</dl>
+		<div id="footer" class="smalltext">
+			
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+		</div>
+	</body>
+</html>

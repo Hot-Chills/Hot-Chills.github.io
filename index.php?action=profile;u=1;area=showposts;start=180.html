@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="Themes/carbonate202b1/css/index.css%3Ffin20.css" />
+	<link rel="stylesheet" type="text/css" href="http://hotchills.org/Themes/carbonate202b1/css/index_carbon.css?fin20" />
+	<script type="text/javascript" src="Themes/default/scripts/script.js%3Ffin20"></script>
+	<script type="text/javascript" src="Themes/carbonate202b1/scripts/theme.js%3Ffin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://hotchills.org/Themes/carbonate202b1";
+		var smf_default_theme_url = "http://hotchills.org/Themes/default";
+		var smf_images_url = "http://hotchills.org/Themes/carbonate202b1/images";
+		var smf_scripturl = "http://hotchills.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - Häppy C@mper" />
+	<title>Show Posts - Häppy C@mper</title>
+	<link rel="help" href="index.php%3Faction=help.html" />
+	<link rel="search" href="index.php%3Faction=search.html" />
+	<link rel="contents" href="index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Hot Chills - RSS" href="index.php%3Ftype=rss%3Baction=.xml" />
+	<link rel="stylesheet" type="text/css" id="portal_css" href="Themes/default/css/portal.css" />
+	<script type="text/javascript" src="Themes/default/scripts/portal.js%3F235"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var sp_images_url = "http://hotchills.org/Themes/carbonate202b1/images/sp";
+		function sp_collapseBlock(id)
+		{
+			mode = document.getElementById("sp_block_" + id).style.display == "" ? 0 : 1;
+			document.cookie = "sp_block_" + id + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_" + id).src = smf_images_url + (mode ? "/collapse.gif" : "/expand.gif");
+			document.getElementById("sp_block_" + id).style.display = mode ? "" : "none";
+		}
+		function sp_collapseSide(id)
+		{
+			var sp_sides = new Array();
+			sp_sides[1] = "sp_left";
+			sp_sides[4] = "sp_right";
+			mode = document.getElementById(sp_sides[id]).style.display == "" ? 0 : 1;
+			document.cookie = sp_sides[id] + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_side" + id).src = sp_images_url + (mode ? "/collapse.png" : "/expand.png");
+			document.getElementById(sp_sides[id]).style.display = mode ? "" : "none";
+		}
+		window.addEventListener("load", sp_image_resize, false);
+	// ]]></script>
+	<style type="text/css">
+		#main_menu,
+		#admin_menu
+		{
+			width: 90%
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="subheader"><div style="width: 90%; margin: auto;">
+	<div id="uppertop">
+		<div class="floatright">January 25, 2018, 21:36:35</div>
+		<script type="text/javascript" src="Themes/default/scripts/sha1.js"></script>
+		<form id="guest_form" action="http://hotchills.org/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'bf87e9bc1a7f4dcadc0eaef651f56d51');">
+			Welcome, <strong>Guest</strong>. Please <a href="index.php%3Faction=login.html">login</a> or <a href="index.php%3Faction=register.html">register</a>.&nbsp;
+			<input type="text" name="user" size="10"  />
+			<input type="password" name="passwrd" size="10"  />
+			<select name="cookielength">
+				<option value="60">1 Hour</option>
+				<option value="1440">1 Day</option>
+				<option value="10080">1 Week</option>
+				<option value="43200">1 Month</option>
+				<option value="-1" selected="selected">Forever</option>
+			</select>
+			<input type="submit" value="Login" />	
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+	</div>
+	<div id="top_section" style="clear: both; padding-top: 1em;">
+			<div class="floatright" id="news"><b>News: </b>
+				
+			</div>		
+		<img id="upshrink" src="Themes/carbonate202b1/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none; clear: right;"  />
+			<h1>
+				<a href="index.php.html"><img src="HotChills.png" alt="Hot Chills" /></a>
+			</h1>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'uppertop',
+					'news'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'a0b5d180155',
+					sSessionId: 'bf87e9bc1a7f4dcadc0eaef651f56d51'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<div class="menuback">
+			<div class="menuback2">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home" class="toplevel">
+					<a class="active firstlevel" href="index.php.html">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_forum" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=forum.html">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=help.html">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=search.html">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_login" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=login.html">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=register.html">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+		<br class="clear" />
+		</div>
+	</div></div>
+	<div id="mainsection"><div style="width: 90%;margin: auto;">
+		<div id="innermain">	
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=1.html"><span>Profile of Häppy C@mper</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="sp_right sp_fullwidth">
+		<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=180.html#side" onclick="return sp_collapseSide(1)"><img src="Themes/carbonate202b1/images/sp/collapse.png" alt="collapse" id="sp_collapse_side1" /></a>
+	</div>
+	<table id="sp_main">
+		<tr>
+			<td id="sp_left" width="200">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('21')"><img id="sp_collapse_21" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Server Information
+		</h3>
+	</div>
+	<div id="sp_block_21" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block"><table><tbody><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Name:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">IP:</td><td class="windowbg info" style="padding: 0 0.3em;">83.209.176.183</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Port:</td><td class="windowbg info" style="padding: 0 0.3em;">36963</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Map:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Players:</td><td class="windowbg info" style="padding: 0 0.3em;">0&nbsp;&nbsp;<span title="">[Hover]</span></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Ranks:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page482.html">[Link]</a></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Traffic:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page837.html">[Link]</a></td></tr></tbody></table>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('2')"><img id="sp_collapse_2" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Who&#039;s Online
+		</h3>
+	</div>
+	<div id="sp_block_2" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<ul class="sp_list">
+									<li><img src="Themes/carbonate202b1/images/sp/dot2.png" alt="Dot" title="Dot" /> Guests: 1</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot3.png" alt="Dot" title="Dot" /> hidden: 0</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot4.png" alt="Dot" title="Dot" /> Users: 1</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot5.png" alt="Dot" title="Dot" /> Users Online:</li>
+								</ul>
+								<div class="sp_online_flow">
+									<ul class="sp_list">
+										<li class="sp_list_indent"><img src="Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="index.php%3Faction=profile%3Bu=1.html" style="color: #FF0000;">Häppy C@mper</a></li>
+									</ul>
+								</div>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('11')"><img id="sp_collapse_11" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Recent Posts
+		</h3>
+	</div>
+	<div id="sp_block_11" class="sp_block_section_last" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<a href="index.php/topic,1148.msg11194/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=133.html">Nighthawk</a><br />[December 17, 2017, 01:07:55]</span><br /><hr />
+								<a href="index.php/topic,1148.msg11193/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=155.html">Range Rover</a><br />[December 09, 2017, 16:33:17]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11192/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=384.html">Maloo</a><br />[November 28, 2017, 22:47:06]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11191/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=213.html">Bounty Hunter</a><br />[November 28, 2017, 18:29:07]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11190/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=1068.html">siN</a><br />[November 28, 2017, 10:45:22]</span><br />
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+			</td>
+			<td id="sp_center">
+<div id="admin_menudrop" style="position: relative; width: 100%;">
+	<div class="menuback">
+	<div class="menuback2">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=180.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=summary%3Bu=1.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=statistics%3Bu=1.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php%3Faction=profile%3Barea=showposts%3Bu=1.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=1.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=1.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=1.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+	</div>
+	</div>
+</div>
+<div id="admin_content" >
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="Themes/carbonate202b1/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="tabs">
+		<img src="Themes/carbonate202b1/images/selected.gif" alt="*" /> <strong><a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=1.html">Messages</a></strong> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=1.html">Topics</a> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=1.html">Attachments</a>
+	</p>
+	<p class="windowbg description">This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.</p>
+	<script type="text/javascript" src="Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - Häppy C@mper
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=0.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php'+'?action=profile;u=1;area=showposts;start=%1$d', 15, 150, 15);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=150.html">11</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=165.html">12</a> [<strong>13</strong>] <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=195.html">14</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=210.html">15</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?action=profile;u=1;area=showposts;start=%1$d', 225, 315, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=315.html">22</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">181</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,323.msg3101.html#msg3101">MOVED: Hacker caught</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 05, 2013, 12:09:09&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This topic has been moved to <a href="index.php/board,4.0.html" class="bbc_link" target="_blank">Moderators' Corner</a>.<br /><br /><a href="index.php/topic,322.0.html" class="bbc_link">http://hotchills.org/index.php?topic=322.0</a>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">182</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,217.msg3098.html#msg3098">Re: Suggestion</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 03, 2013, 22:34:09&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Thanks for the feedback. I will make some adjustments regarding the links. I will also state that hovering the players number will show a list of the players currently on the server. That&#039;s really not obvious now.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">183</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,217.msg3087.html#msg3087">Re: Suggestion</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> December 02, 2013, 20:19:24&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,217.msg3080.html#msg3080">Quote from: Maciek on December 01, 2013, 10:17:08</a></div></div><blockquote class="bbc_standard_quote">I would like to suggest to make &quot;something&quot; on HC website (this one) what will show how many players are already online on server. It would be helpful when i think about playing cs2d instead of another game.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Good suggestion. It&#039;s implemented now.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">184</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,318.msg3077.html#msg3077">Re: Rechange guns</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 30, 2013, 11:43:44&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					It&#039;s the script. Without it, it could sometimes look like you were using one weapon, but the server thought you were using another one. So you might think you were blasting your AK-47, while, according to the server, you were cutting with your knife in thin air. The workaround I made was to change the weapon half a second or so after you spawn. I am not sure how to solve this in a better way, unfortunately.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">185</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,317.msg3050.html#msg3050">New IP address</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 25, 2013, 19:28:09&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The IP address changed, see <em>Server Information</em>.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">186</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,305.msg2992.html#msg2992">Re: Evaldas ddosing server</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 18, 2013, 13:30:31&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Yeah, I found the thread about the bug at Unreal Software so I added the fix. It seems there are other ways to crash the server, though. <img src="Smileys/default/undecided.gif" alt="&#58;-\" title="Undecided" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">187</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,303.msg2923.html#msg2923">Re: Bugged Turrets</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 10, 2013, 15:10:54&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,303.msg2922.html#msg2922">Quote from: Criss Leo on November 10, 2013, 15:06:30</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,303.msg2921.html#msg2921">Quote from: Ice-cream16 on November 10, 2013, 14:46:30</a></div></div><blockquote class="bbc_alternate_quote">In some rounds with wrench turrets have no damage at all.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Doesn&#039;t Happy purposely made it?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>No, I did not. I have noticed the same behaviour on some other server. I think it&#039;s a bug in CS2D.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">188</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,303.msg2917.html#msg2917">Re: Bugged Turrets</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 09, 2013, 23:19:30&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					This is not a script bug. The script doesn&#039;t modify the turrets. You should report this at UnrealSoftware.de.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">189</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,293.msg2862.html#msg2862">New admin</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 05, 2013, 22:37:03&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I am happy (no pun intended) to announce that the new admin is <strong>destroyer ita</strong>. He and ŦƲƦƙɘƳ now form the admin team.<br /><br />Welcome, destroyer, and good luck!<br />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">190</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,292.msg2856.html#msg2856">Re: leaving</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> November 01, 2013, 20:00:13&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					At least I am not leaving. I am not that active right now, but I&#039;m here.<br /><br />It&#039;s unfortunate with all the nice people leaving, but that&#039;s life. I&#039;m sure some of them will come back after a while. Meanwhile, let&#039;s look forward to the coming holidays when there&#039;s usually a lot of people on the server.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">191</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,290.msg2842.html#msg2842">Re: Farewell everybody</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 29, 2013, 22:00:01&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					It is sad to see you go, but I understand. There is a time and place for everything and then it is time to move on. You have done a great job and it will be difficult to replace you. Thanks and good luck.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">192</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,288.msg2825.html#msg2825">Re: Server</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 23, 2013, 16:55:57&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have the Christmas dust map, which was used last year. How does that sound?<br /><br />Edit: If radio sounds were server side, we could replace &quot;Go! Go! Go!&quot; with &quot;Ho! Ho! Ho!&quot;. (I know, this is a bad joke.)
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">193</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,288.msg2823.html#msg2823">Re: Server</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 21, 2013, 21:22:02&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I am aware that the number of players has dropped during the last few months. I see two reasons for this.<br /><br />1. The IP address has changed twice. Each time, the number of players plunged immediately and then recovered slowly.<br /><br />2. People are busy with schools now. It&#039;s the same every year.<br /><br />Right now I&#039;m not in the mood to do anything radical with the server. I am pretty sure there will be more players when we get closer to Christmas break. So hang in there, it will get better.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">194</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,285.msg2796.html#msg2796">New IP address</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> October 08, 2013, 08:02:00&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The IP address changed last night, see <em>Server Information</em> in the sidebar.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">195</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,280.msg2750.html#msg2750">Re: U.S.G.N. names</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 29, 2013, 18:36:06&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,280.msg2738.html#msg2738">Quote from: Bonzo on September 28, 2013, 17:03:28</a></div></div><blockquote class="bbc_standard_quote">And I might as well add that unless Happy changed it at the last minute, then the &quot;List Players&quot; command should/will be accessible through F3 -&gt; Check , not from F2 where &quot;Online Users&quot; used to be.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Thanks, you are quite right. I forgot to mention that. The list of recent players is also improved. Bots are not added to it and when people rejoin, they are removed from the list.<br /><br />The script is active now.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=0.html">1</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php'+'?action=profile;u=1;area=showposts;start=%1$d', 15, 150, 15);" onmouseover="this.style.cursor = 'pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=150.html">11</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=165.html">12</a> [<strong>13</strong>] <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=195.html">14</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=210.html">15</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?action=profile;u=1;area=showposts;start=%1$d', 225, 315, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=315.html">22</a> </span>
+		</div>
+</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div></div>
+	<div id="footersection"><div style="width: 90%;margin: auto;">
+		<div class="floatright" style="text-align: right;"><strong>Carbonate</strong> design by <a href="http://www.blocweb.net">Bloc</a>
+		<br />variant: carbon 
+		</div>
+	
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+	</div></div></div>
+</body></html>

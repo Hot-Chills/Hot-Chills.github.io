@@ -1,0 +1,567 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="Themes/carbonate202b1/css/index.css%3Ffin20.css" />
+	<link rel="stylesheet" type="text/css" href="http://hotchills.org/Themes/carbonate202b1/css/index_carbon.css?fin20" />
+	<script type="text/javascript" src="Themes/default/scripts/script.js%3Ffin20"></script>
+	<script type="text/javascript" src="Themes/carbonate202b1/scripts/theme.js%3Ffin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://hotchills.org/Themes/carbonate202b1";
+		var smf_default_theme_url = "http://hotchills.org/Themes/default";
+		var smf_images_url = "http://hotchills.org/Themes/carbonate202b1/images";
+		var smf_scripturl = "http://hotchills.org/index.php";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="Show Posts - Häppy C@mper" />
+	<title>Show Posts - Häppy C@mper</title>
+	<link rel="help" href="index.php%3Faction=help.html" />
+	<link rel="search" href="index.php%3Faction=search.html" />
+	<link rel="contents" href="index.php.html" />
+	<link rel="alternate" type="application/rss+xml" title="Hot Chills - RSS" href="index.php%3Ftype=rss%3Baction=.xml" />
+	<link rel="stylesheet" type="text/css" id="portal_css" href="Themes/default/css/portal.css" />
+	<script type="text/javascript" src="Themes/default/scripts/portal.js%3F235"></script>
+	<script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+		var sp_images_url = "http://hotchills.org/Themes/carbonate202b1/images/sp";
+		function sp_collapseBlock(id)
+		{
+			mode = document.getElementById("sp_block_" + id).style.display == "" ? 0 : 1;
+			document.cookie = "sp_block_" + id + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_" + id).src = smf_images_url + (mode ? "/collapse.gif" : "/expand.gif");
+			document.getElementById("sp_block_" + id).style.display = mode ? "" : "none";
+		}
+		function sp_collapseSide(id)
+		{
+			var sp_sides = new Array();
+			sp_sides[1] = "sp_left";
+			sp_sides[4] = "sp_right";
+			mode = document.getElementById(sp_sides[id]).style.display == "" ? 0 : 1;
+			document.cookie = sp_sides[id] + "=" + (mode ? 0 : 1);
+			document.getElementById("sp_collapse_side" + id).src = sp_images_url + (mode ? "/collapse.png" : "/expand.png");
+			document.getElementById(sp_sides[id]).style.display = mode ? "" : "none";
+		}
+		window.addEventListener("load", sp_image_resize, false);
+	// ]]></script>
+	<style type="text/css">
+		#main_menu,
+		#admin_menu
+		{
+			width: 90%
+		}
+	</style>
+</head>
+<body>
+<div id="wrapper">
+	<div id="subheader"><div style="width: 90%; margin: auto;">
+	<div id="uppertop">
+		<div class="floatright">January 25, 2018, 16:51:42</div>
+		<script type="text/javascript" src="Themes/default/scripts/sha1.js"></script>
+		<form id="guest_form" action="http://hotchills.org/index.php?action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'bf87e9bc1a7f4dcadc0eaef651f56d51');">
+			Welcome, <strong>Guest</strong>. Please <a href="index.php%3Faction=login.html">login</a> or <a href="index.php%3Faction=register.html">register</a>.&nbsp;
+			<input type="text" name="user" size="10"  />
+			<input type="password" name="passwrd" size="10"  />
+			<select name="cookielength">
+				<option value="60">1 Hour</option>
+				<option value="1440">1 Day</option>
+				<option value="10080">1 Week</option>
+				<option value="43200">1 Month</option>
+				<option value="-1" selected="selected">Forever</option>
+			</select>
+			<input type="submit" value="Login" />	
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+	</div>
+	<div id="top_section" style="clear: both; padding-top: 1em;">
+			<div class="floatright" id="news"><b>News: </b>
+				
+			</div>		
+		<img id="upshrink" src="Themes/carbonate202b1/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none; clear: right;"  />
+			<h1>
+				<a href="index.php.html"><img src="HotChills.png" alt="Hot Chills" /></a>
+			</h1>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'uppertop',
+					'news'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'a0b5d180155',
+					sSessionId: 'bf87e9bc1a7f4dcadc0eaef651f56d51'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<div class="menuback">
+			<div class="menuback2">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home" class="toplevel">
+					<a class="active firstlevel" href="index.php.html">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_forum" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=forum.html">
+						<span class="firstlevel">Forum</span>
+					</a>
+				</li>
+				<li id="button_help" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=help.html">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=search.html">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_login" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=login.html">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register" class="toplevel">
+					<a class="firstlevel" href="index.php%3Faction=register.html">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+		<br class="clear" />
+		</div>
+	</div></div>
+	<div id="mainsection"><div style="width: 90%;margin: auto;">
+		<div id="innermain">	
+	<div class="navigate_section">
+		<ul>
+			<li>
+				<a href="index.php%3Faction=forum.html"><span>Hot Chills</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=1.html"><span>Profile of Häppy C@mper</span></a> &#187;
+			</li>
+			<li>
+				<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts.html"><span>Show Posts</span></a> &#187;
+			</li>
+			<li class="last">
+				<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bsa=messages.html"><span>Messages</span></a>
+			</li>
+		</ul>
+	</div>
+	<div class="sp_right sp_fullwidth">
+		<a href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=15.html#side" onclick="return sp_collapseSide(1)"><img src="Themes/carbonate202b1/images/sp/collapse.png" alt="collapse" id="sp_collapse_side1" /></a>
+	</div>
+	<table id="sp_main">
+		<tr>
+			<td id="sp_left" width="200">
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('21')"><img id="sp_collapse_21" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Server Information
+		</h3>
+	</div>
+	<div id="sp_block_21" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block"><table><tbody><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Name:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">IP:</td><td class="windowbg info" style="padding: 0 0.3em;">83.209.176.183</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Port:</td><td class="windowbg info" style="padding: 0 0.3em;">36963</td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Map:</td><td class="windowbg info" style="padding: 0 0.3em;"></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Players:</td><td class="windowbg info" style="padding: 0 0.3em;">0&nbsp;&nbsp;<span title="">[Hover]</span></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Ranks:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page482.html">[Link]</a></td></tr><tr class="windowbg"><td class="windowbg info" style="padding: 0 0.3em;">Traffic:</td><td class="windowbg info" style="padding: 0 0.3em;"><a href="index.php/page,page837.html">[Link]</a></td></tr></tbody></table>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('2')"><img id="sp_collapse_2" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Who&#039;s Online
+		</h3>
+	</div>
+	<div id="sp_block_2" class="sp_block_section" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<ul class="sp_list">
+									<li><img src="Themes/carbonate202b1/images/sp/dot2.png" alt="Dot" title="Dot" /> Guests: 5</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot3.png" alt="Dot" title="Dot" /> hidden: 0</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot4.png" alt="Dot" title="Dot" /> Users: 1</li>
+									<li><img src="Themes/carbonate202b1/images/sp/dot5.png" alt="Dot" title="Dot" /> Users Online:</li>
+								</ul>
+								<div class="sp_online_flow">
+									<ul class="sp_list">
+										<li class="sp_list_indent"><img src="Themes/carbonate202b1/images/sp/user.png" alt="user" /> <a href="index.php%3Faction=profile%3Bu=1.html" style="color: #FF0000;">Häppy C@mper</a></li>
+									</ul>
+								</div>
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<a class="sp_float_right" style="padding-top: 7px;" href="javascript:void(0);" onclick="sp_collapseBlock('11')"><img id="sp_collapse_11" src="Themes/carbonate202b1/images/collapse.gif" alt="*" /></a>
+			Recent Posts
+		</h3>
+	</div>
+	<div id="sp_block_11" class="sp_block_section_last" >
+		<div class="windowbg">
+			<span class="topslice"><span></span></span>
+			<div class="sp_block">
+								<a href="index.php/topic,1148.msg11194/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=133.html">Nighthawk</a><br />[December 17, 2017, 01:07:55]</span><br /><hr />
+								<a href="index.php/topic,1148.msg11193/topicseen.html#new">Re: HC =&gt; Fws</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=155.html">Range Rover</a><br />[December 09, 2017, 16:33:17]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11192/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=384.html">Maloo</a><br />[November 28, 2017, 22:47:06]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11191/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=213.html">Bounty Hunter</a><br />[November 28, 2017, 18:29:07]</span><br /><hr />
+								<a href="index.php/topic,1149.msg11190/topicseen.html#new">Re: HotChills.org will close on January 27</a> <span class="smalltext">by <a href="index.php%3Faction=profile%3Bu=1068.html">siN</a><br />[November 28, 2017, 10:45:22]</span><br />
+			</div>
+			<span class="botslice"><span></span></span>
+		</div>
+	</div>
+			</td>
+			<td id="sp_center">
+<div id="admin_menudrop" style="position: relative; width: 100%;">
+	<div class="menuback">
+	<div class="menuback2">
+	<ul class="dropmenu" id="dropdown_menu_1">
+			<li><a class="active firstlevel" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=15.html#"><span class="firstlevel">Profile Info</span></a>
+				<ul>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=summary%3Bu=1.html"><span>Summary</span></a>
+					</li>
+					<li>
+						<a href="index.php%3Faction=profile%3Barea=statistics%3Bu=1.html"><span>Show Stats</span></a>
+					</li>
+					<li>
+						<a class="chosen" href="index.php%3Faction=profile%3Barea=showposts%3Bu=1.html"><span>Show Posts...</span></a>
+						<ul>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=1.html"><span>Messages</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=1.html"><span>Topics</span></a>
+							</li>
+							<li>
+								<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=1.html"><span>Attachments</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+	</ul>
+	</div>
+	</div>
+</div>
+<div id="admin_content" >
+	<div class="cat_bar">
+		<h3 class="catbg">
+			<span class="ie6_header floatleft"><img src="Themes/carbonate202b1/images/icons/profile_sm.gif" alt="" class="icon" />Show Posts
+			</span>
+		</h3>
+	</div>
+	<p class="tabs">
+		<img src="Themes/carbonate202b1/images/selected.gif" alt="*" /> <strong><a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=messages%3Bu=1.html">Messages</a></strong> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=topics%3Bu=1.html">Topics</a> | 
+		<a href="index.php%3Faction=profile%3Barea=showposts%3Bsa=attach%3Bu=1.html">Attachments</a>
+	</p>
+	<p class="windowbg description">This section allows you to view all posts made by this member. Note that you can only see posts made in areas you currently have access to.</p>
+	<script type="text/javascript" src="Themes/default/scripts/profile.js"></script>
+		<div class="cat_bar">
+			<h3 class="catbg">
+				Messages - Häppy C@mper
+			</h3>
+		</div>
+		<div class="pagesection">
+			<span>Pages: <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=45.html">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?action=profile;u=1;area=showposts;start=%1$d', 60, 315, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=315.html">22</a> </span>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">16</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1101.msg10650.html#msg10650">Re: HC // Fun and Hotchills down [temporarily solved!]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 29, 2016, 12:00:08&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1101.msg10646.html#msg10646">Quote from: Hyorgh on September 27, 2016, 22:40:50</a></div></div><blockquote class="bbc_standard_quote"><strong>Edit:</strong> I just realised HC gave me Senior Moderator rank, should i keep it or not? <img src="Smileys/default/cheesy.gif" alt="&#58;D" title="Cheesy" class="smiley" /><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>I think you have deserved it. <img src="Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">17</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1101.msg10645.html#msg10645">Re: HC // Fun and Hotchills down [temporarily solved!]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 27, 2016, 18:36:58&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1101.msg10642.html#msg10642">Quote from: Hyorgh on September 27, 2016, 12:44:53</a></div></div><blockquote class="bbc_standard_quote">I&#039;ve got a problem.<br />When i joined the server after it went back online, i had my VIP but not my Mod rank.<br />I thought that i had to play 2 hours again to gain it back. So i spent 2 hours playing but the Mod&#039;s menu is still missing, can anybody help?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br /><div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1101.msg10643.html#msg10643">Quote from: yashukiller on September 27, 2016, 15:43:03</a></div></div><blockquote class="bbc_standard_quote">Same happened with meh <br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />That&#039;s probably because the backup I used was old, so your ranks have all expired. I have fixed that.<br /><br /><div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1101.msg10644.html#msg10644">Quote from: N` on September 27, 2016, 16:35:39</a></div></div><blockquote class="bbc_standard_quote">yeah i spent 2 hours and still havent my adminstrator cs2d rank... pls help me guys<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div><br />Nice try, but you never were an admin. You are already a moderator so I guess you were pinned. <img src="Smileys/default/smiley.gif" alt="&#58;&#41;" title="Smiley" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">18</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1101.msg10641.html#msg10641">Re: HC // Fun and Hotchills down [temporarily solved!]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 27, 2016, 11:39:49&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have a small server at home that I use for hosting this web site. It&#039;s just big enough to host HC // Fun as well.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">19</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1101.msg10639.html#msg10639">Re: HC // Fun and Hotchills down [temporarily solved!]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 23, 2016, 19:05:52&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I have made a temporary solution, so HC // Fun is back online. Note the new IP address.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">20</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1101.msg10631.html#msg10631">HC // Fun and Hotchills down [temporarily solved!]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> September 20, 2016, 19:10:37&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					HC // Fun is down due to a problem with the VPS. We are working on a solution. Hopefully it will be fixed within a couple of days.<br /><br />Hotchills will be a bit unstable for a few days. I am upgrading the OS.<br /><br /><strong>Edit:</strong><br /><br />The Fws servers are affected as well. Here is a link to the corresponding thread in their forum:<br /><br /><a href="http://fwsserver.forumotions.net/t4027-regarding-servers" class="bbc_link" target="_blank">http://fwsserver.forumotions.net/t4027-regarding-servers</a><br /><br />It might contain more recent information.<br /><br /><strong>Edit:</strong><br /><br />HC // Fun is back online! I am using a temporary host, so it probably lags more than usual, sorry.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">21</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,5.0.html">Moderator Applications</a> / <a href="index.php/topic,1096.msg10557.html#msg10557">Re: my application for smod</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 23, 2016, 19:32:54&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Guys, please try to be a bit more mature.<br /><ul class="bbc_list"><li>Don&#039;t be rude.</li><li>Don&#039;t go off-topic.</li><li>Don&#039;t act like admins/moderators if you are not.</li></ul>Commenting applications is fine, but do it in a constructive way. &quot;Thanks for the waste of time&quot; and &quot;The pleasure was mine, I laughed a lot. xD.&quot; are not constructive at all.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">22</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,1093.msg10527.html#msg10527">Re: Suggestion</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 17, 2016, 22:03:24&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					As you already guessed, I am not so fond of replacing the map completely. Using a new tileset requires no changes to the script, so that would be acceptable.<br /><br />I don&#039;t have the time to do it myself, but if someone is willing to do it, please go ahead. If I think the result is good, I will put it on the server.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">23</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,2.0.html">News and Announcements</a> / <a href="index.php/topic,1090.msg10469.html#msg10469">Server switch [Done]</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> August 01, 2016, 10:59:43&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					There will be another server switch later today, probably. The IP address of the new server will be 151.80.111.205. HC // Fun will be down for an hour.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">24</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1088.msg10458.html#msg10458">Re: Question: KDE Software Manager</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 30, 2016, 14:12:21&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1088.msg10456.html#msg10456">Quote from: Bounty Hunter on July 30, 2016, 13:56:35</a></div></div><blockquote class="bbc_standard_quote">Can I remove KDE completely and use only gnome?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>I think so. <a href="http://forums.debian.net/viewtopic.php?f=10&amp;t=102884" class="bbc_link" target="_blank">This discussion</a>, which is three years old but probably still valid, says so.<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">sudo apt-get remove kdelibs-bin kdelibs5-data<br /></code><br /><div class="quoteheader"><div class="topslice_quote">Quote from: Mast#</div></div><blockquote class="bbc_standard_quote">There&#039;s a way to make me quiet. <strong>(Not trustful 100%)</strong> Giving me JMod in HC//Fun.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Lol, good try, but I doubt it will work. Don&#039;t change, Mast#. Your positive energy means a lot for HC.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">25</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1088.msg10455.html#msg10455">Re: Question: KDE Software Manager</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 30, 2016, 12:59:50&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					OK, I thought Synaptic was installed by default. It should be fairly simple to install from the command line, though.<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">sudo apt-get install synaptic<br /></code>You can have both KDE and Gnome installed. Then you can choose which one to use when logging in. See <a href="http://unix.stackexchange.com/questions/269392/debian-how-to-revert-back-to-kde-after-switching-to-gnome" class="bbc_link" target="_blank">here</a>, for instance.<br /><div class="codeheader">Code: <a href="javascript:void(0);" onclick="return smfSelectText(this);" class="codeoperation">[Select]</a></div><code class="bbc_code">sudo apt-get install gnome<br /></code>
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">26</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1088.msg10451.html#msg10451">Re: Question: KDE Software Manager</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 30, 2016, 00:13:40&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1088.msg10450.html#msg10450">Quote from: Mast# on July 30, 2016, 00:03:07</a></div></div><blockquote class="bbc_standard_quote"><div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1088.msg10449.html#msg10449">Quote from: Häppy C@mper on July 29, 2016, 23:55:44</a></div></div><blockquote class="bbc_alternate_quote">I am using Ubuntu as well. Maybe <a href="http://www.wikihow.com/Install-Software-in-Debian-Linux" class="bbc_link" target="_blank">this link</a> can help you? I guess at least Synaptic should be installed by default.<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>Ayyyyy Happy Camper. Is there something that you can&#039;t solve?<br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div>I don&#039;t know how to make you keep quiet. <img src="Smileys/default/wink.gif" alt=";&#41;" title="Wink" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">27</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1088.msg10449.html#msg10449">Re: Question: KDE Software Manager</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 29, 2016, 23:55:44&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					I am using Ubuntu as well. Maybe <a href="http://www.wikihow.com/Install-Software-in-Debian-Linux" class="bbc_link" target="_blank">this link</a> can help you? I guess at least Synaptic should be installed by default.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">28</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1084.msg10431.html#msg10431">Re: How did you discover CS2d</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 24, 2016, 09:27:04&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					<div class="quoteheader"><div class="topslice_quote"><a href="index.php/topic,1084.msg10430.html#msg10430">Quote from: Mast# on July 24, 2016, 09:03:31</a></div></div><blockquote class="bbc_standard_quote"><a href="https://www.youtube.com/watch?v=innJxQM_-CE" class="bbc_link" target="_blank">https://www.youtube.com/watch?v=innJxQM_-CE</a><br /></blockquote><div class="quotefooter"><div class="botslice_quote"></div></div> <img src="Smileys/default/grin.gif" alt=";D" title="Grin" class="smiley" />
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">29</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,1.0.html">General Discussion</a> / <a href="index.php/topic,1084.msg10427.html#msg10427">Re: How did you discover CS2d</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 23, 2016, 21:47:31&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					Still a lot of off-topic, but I am too soft so I will tell you my story anyway. To punish you I have made it really long.<br /><br />Back in 2008 I was looking for some free, simple, fun multiplayer game to play online. Since I am a Linux guy, I wanted to be able to play in Linux. After some searching I found <a href="http://play-free-online-games.com/" class="bbc_link" target="_blank">this site</a> with an extensive list of games. I started going through the list and tried a few ones. There wasn&#039;t any interesting, really. But then I found this cute looking game called Counter-Strike 2D. I had played Counter-Strike so it caught my eye immediately. I downloaded it and started playing. Wow! This was really fun! I played on a CTF server for the rest of the evening. I couldn&#039;t wait to get up in the morning to continue playing.<br /><br />After a good night&#039;s sleep I continued exploring the server list. I joined a random server. It was running in construction mode, but I had no idea at first. What the heck were the other players doing with those wrenches? This wasn&#039;t part of the original Counter-Strike. Oh, they are building stuff. How do I do that? The lack of instructions was a slight problem but after some trial and error I succeeded. Cool, I can create stuff! Construction mode had been introduced recently so there were lots of construction servers out there. Many of them used the original DE and CS maps, which have no real objective in construction mode, except building and killing players from the other team. That didn&#039;t matter. Construction mode was more hyped than Pokémon Go at the time.<br /><br />After a few weeks of getting my noob ass whipped I discovered the noble art of camping. Camping could really compensate for my lack of skills and it made the game more interesting. Waiting under a tree to ambush unexpecting players that came too close was really fun. For me. The victims were usually not that amused. One even referred to me as a &quot;f*****g camper&quot;. Hmm, that sounded quite cool, I thought. If I replace the bad word with &quot;happy&quot; it would make a great nick.<br /><br />Some month after I started playing I began constructing maps. Soon after that I opened my first server, HC // Construction. It ran until end of 2010 when it was closed due to lack of players. Less than two years later I opened HC // Fun.<br /><br />That&#039;s my story.
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="topic">
+			<div class="windowbg2 core_posts">
+				<span class="topslice"><span></span></span>
+				<div class="content">
+					<div class="counter">30</div>
+					<div class="topic_details">
+						<h5><strong><a href="index.php/board,3.0.html">Server</a> / <a href="index.php/topic,1080.msg10399.html#msg10399">Re: Hello</a></strong></h5>
+						<span class="smalltext">&#171;&nbsp;<strong>on:</strong> July 21, 2016, 10:05:39&nbsp;&#187;</span>
+					</div>
+					<div class="list_posts">
+					The ban was done almost two years ago by Bounty Hunter, but I doubt he remembers it. It&#039;s an IP ban and the reason was &quot;Hacking/Cheating&quot;. The U.S.G.N., which is different from your current one, was banned 10 minutes before the IP address for the same reason. The U.S.G.N. is banned at Unreal Software as well, since three months ago.<br /><br />An interesting thing is that the player used the nick &quot;next generation of aimbot&quot; when he was banned.<br /><br />Did you have another U.S.G.N. before your current one?
+					</div>
+				</div>
+				<br class="clear" />
+				<span class="botslice"><span></span></span>
+			</div>
+		</div>
+		<div class="pagesection" style="margin-bottom: 0;">
+			<span>Pages: <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=0.html">1</a> [<strong>2</strong>] <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=30.html">3</a> <a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=45.html">4</a> <span style="font-weight: bold;" onclick="expandPages(this, 'http://hotchills.org/index.php?action=profile;u=1;area=showposts;start=%1$d', 60, 315, 15);" onmouseover="this.style.cursor='pointer';"> ... </span><a class="navPages" href="index.php%3Faction=profile%3Bu=1%3Barea=showposts%3Bstart=315.html">22</a> </span>
+		</div>
+</div>
+			</td>
+		</tr>
+	</table>
+	</div>
+	</div></div>
+	<div id="footersection"><div style="width: 90%;margin: auto;">
+		<div class="floatright" style="text-align: right;"><strong>Carbonate</strong> design by <a href="http://www.blocweb.net">Bloc</a>
+		<br />variant: carbon 
+		</div>
+	
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="index.php%3Faction=credits.html" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.3</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2013</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a><br /><a href="http://www.simpleportal.net/" target="_blank" class="new_win">SimplePortal 2.3.5 &copy; 2008-2012, SimplePortal</a>
+			</span>
+	</div></div></div>
+</body></html>
